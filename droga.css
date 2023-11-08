@@ -67,19 +67,52 @@ html, body {
   filter: invert(1.8);
 }
 
+/* info-repas */
 .info-repas-inc {
   height: 100vh;
   width: 100%;
-  background: linear-gradient(90deg, rgba(89,224,118,1) 0%, rgba(142,255,166,1) 50%, rgba(89,224,118,1) 100%);
+  background: linear-gradient(90deg, rgba(2,32,0,0.5) 0%, rgba(2,32,0,0.5) 100%), url(under-inicio.jpg);
+  margin: 0;
+}
+.info-repas-inc h1{
+  padding: 20px 20px;
+  margin: 0;
+  text-align: center;
+  color: #7c00cd;
+}
+.info-repas-inc p{
+  text-align: center;
+  color: #0f0;
+}
+.info-repas-inc .psico{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 20px 20px;
+}
+.info-repas-inc .psico p{
+  text-align: left;
+  color: #fff;
 }
 
-.under-section{
-  width: 100%;
-  height: 200px;
-  background: linear-gradient(90deg, rgba(4,64,0,0.5) 0%, rgba(4,64,0,0.5) 100%), url(under-inicio.jpg);
+.psico .psicodelicas{
+  padding: 20px 20px;
+  background: #1e2525;
+  border-radius: 10px;
 }
-
-  
+.psico .psicoactivas{
+  padding: 20px 20px;
+  background: #1e2525;
+  border-radius: 10px; 
+}
+.info-repas-inc .nav-intro{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+  padding: 20px 20px;
+}
+/* footer */
 footer {
   background: linear-gradient(90deg, rgba(4,64,0,0.5) 0%, rgba(4,64,0,0.5) 100%), url(under-inicio.jpg);
   color: rgb(255, 255, 255);
@@ -104,7 +137,7 @@ footer img{
 
 footer .enlaces{
   margin: 0;
-  background-color:#273031;
+  background-color:#1e2525;
   padding: 50px 50px;
   display: flex;
   justify-content: center;
