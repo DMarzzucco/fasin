@@ -84,10 +84,11 @@ html, body {
   font-size: 50px;
 }
 .info-repas-inc a{
-  padding: 20px 20px;
-  color: white;
-  font-size: 20px;
-  margin: 0;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
 }
 .info-repas-inc i{
   padding: 20px 20px;
