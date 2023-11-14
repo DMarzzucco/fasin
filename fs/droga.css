@@ -8,7 +8,101 @@ html, body {
     font-weight: bold;
   }
   
+nav{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #1818188c;
+  position: fixed;
+  border-bottom: 1px solid #181818;
+}
+nav img{
+  width: 120px;
+  height: 50px;
+  padding: 10px 10px;
+}
+nav span{
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+aside{
+  background-color: #1e2525;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  margin-top: 91px;
+  transition: 0.5s;
+}
+aside:hover{
+  overflow-y: auto;
+}
+.desplegar{
+  transform: translateX(-100%);
+}
+aside::-webkit-scrollbar{
+  width: 8px;
+}
+aside::-webkit-scrollbar-thumb{
+  background-color: #909090;
+  border-radius: 5px;
+}
+aside a{
+  text-decoration: none;
+  color: white;
+}
+.inicio-salid{
+  border-bottom: 1px solid #383838;
+  padding: 10px 1px;
+  color: white;
+}
+.inicio-salid div{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.inicio-salid div:hover{
+  background-color: #230e6e;
+}
+.inicio-salid i{
+  padding: 10px 10px;
+}
+.inicio-salid p {
+  display: inline;
+}
+/* kid-psico */
+.kid-psico{
+  border-bottom: 1px solid #383838;
+  padding: 10px 1px;
+  color: white;
+  
+}
+.kid-psico p{
+  display: inline;
+}
+.kid-psico div{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.kid-psico div:hover{
+  background-color: #66aa0c;
+}
+.kid-psico img{
+  width: 30px;
+  height: 30px;
+  padding: 10px 10px;
+}
 
+/* inicio */
 .inicio {
   background: linear-gradient(0deg, rgba(34, 192, 195, 0.445) 0%, rgba(49, 120, 49, 0.63) ), url(pica.gif);
   background-size: 100%;
@@ -61,9 +155,10 @@ html, body {
   width: 50px;
   height: 50px;
   margin-right: 10px;
-  margin-top: -30px;
-  transform: rotate(40deg);
+  margin-top: -42px;
+  transform: rotate(90deg);
   transition: filter 0.3s;
+  clip-path: polygon(50% 0, 78% 32%, 78% 71%, 50% 100%, 0 50%);
 }
 .inicio .enlaceInci img:hover {
   filter: invert(1.8);
@@ -88,7 +183,7 @@ html, body {
   text-align: center;
   display: inline-block;
   width: 100%;
-  color: #fff;
+  color: #ffffff00;
   font-size: 30px;
 }
 .info-repas-inc i{
@@ -189,10 +284,3 @@ footer .copia-deauto{
 
 
 
-
-  /* header {
-    background-color: rgba(46, 123, 163, 0); 
-    color: white;
-    padding: 20px;
-    text-align: center;
-  } */
