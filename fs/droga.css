@@ -85,6 +85,8 @@ aside a{
 }
 .kid-psico p{
   display: inline;
+  position: relative;
+  bottom: 18px;
 }
 .kid-psico div{
   display: flex;
