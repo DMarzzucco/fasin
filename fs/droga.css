@@ -353,11 +353,11 @@ aside a{
 .container .prueba .tab-button6:hover{
   background: linear-gradient(180deg, rgba(19,186,0,1) 0%, rgba(0,250,209,1) 100%);
 }
-.tab-prueba{
+/* .tab-prueba{
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .contenido-prueba{
   padding: 20px 20px;
 }
@@ -378,6 +378,66 @@ aside a{
 .active{
   display: block;
 }
+/* contenido hibridos */
+.hibrid{
+  width:1250px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:8px;
+  padding: 20px 20px;
+  background-color: #230e6e;
+}
+.hibrid .car{
+  position: static;
+  cursor: pointer;
+}
+.hibrid .car .face{
+  width: 200px;
+  height: 100px;
+  transition: 0.5s;
+}
+.hibrid .car .face.face1 {
+   position: relative;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+   transform: translateY(0px);
+}
+.hibrid .car.ak47 .face.face1{
+  background: url(ak4.jpg);
+  background-size: cover;
+}
+.hibrid .car:hover .face.face1{
+  background:linear-gradient(#202020a3, #202020c3), url(ak4.jpg);
+  background-size: cover;
+  transform: translateY(100);
+}
+
+.hibrid .car .face.face1 .content h1 {
+  color: black;
+  font-size:40px;
+}
+
+.hibrid .car .face.face2{
+  width: 100%;
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  transform: translateY(-100px);
+}
+.hibrid .car:hover .face.face2{
+  transform: translateY(0);
+}
+.hibrid .car .face.face2 .content p{
+  color: black;
+}
+
 
 
 /* footer */
