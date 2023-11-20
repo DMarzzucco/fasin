@@ -37,6 +37,7 @@ aside{
   overflow: hidden;
   margin-top: 91px;
   transition: 0.5s;
+  z-index: 3;
 }
 aside:hover{
   overflow-y: auto;
@@ -242,11 +243,9 @@ aside a{
 /* contenido */
 .container{
   align-items: center;
-  padding: 50px 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#1e252572, #1e25253a), url(prueba.jpeg);
-  background-size: cover;
+  background: linear-gradient(#00ffff72, #1e25253a), url(mandala3.gif);
   color: white;
 }
 .container .fondo{
@@ -262,7 +261,6 @@ aside a{
   align-items: center;
   margin: 0;
 }
-
 .container .prueba .tab-button1{
   width: 100%;
   padding: 10px 0;
@@ -277,7 +275,6 @@ aside a{
 .container .prueba .tab-button1:hover{
   background-color: #66aa0c;
 }
-
 .container .prueba .tab-button2{
   width: 100%;
   height: 100%;
@@ -293,7 +290,6 @@ aside a{
 .container .prueba .tab-button2:hover{
   background-color: blue;
 }
-
 .container .prueba .tab-button3{
   width: 100%;
   height: 100%;
@@ -358,6 +354,7 @@ aside a{
   justify-content: center;
   align-items: center;
 } */
+
 .contenido-prueba{
   padding: 20px 20px;
 }
@@ -380,12 +377,11 @@ aside a{
 }
 /* contenido hibridos */
 .hibrid{
-  width:1250px;
+  /* width:1250px; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap:8px;
   padding: 20px 20px;
-  background-color: #230e6e;
 }
 .hibrid .car{
   position: static;
@@ -408,17 +404,27 @@ aside a{
 .hibrid .car.ak47 .face.face1{
   background: url(ak4.jpg);
   background-size: cover;
+  background-position: center -50px;
+  
 }
 .hibrid .car:hover .face.face1{
-  background:linear-gradient(#202020a3, #202020c3), url(ak4.jpg);
+  /* background:linear-gradient(#202020a3, #202020c3), url(ak4.jpg); */
   background-size: cover;
   transform: translateY(100);
 }
 
 .hibrid .car .face.face1 .content h1 {
-  color: black;
-  font-size:40px;
+  color: #fff;
+  background: #000;
+  font-size: 20px;
+  text-align: center;
+  margin: 0; 
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%;
 }
+
 
 .hibrid .car .face.face2{
   width: 100%;
