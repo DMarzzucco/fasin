@@ -377,7 +377,7 @@ aside a{
 }
 /* contenido hibridos */
 .hibrid{
-  /* width:1250px; */
+  width:1250px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap:8px;
