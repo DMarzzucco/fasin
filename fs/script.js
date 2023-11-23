@@ -6,7 +6,7 @@ $hideShow.addEventListener("click",()=>{
     $aside.classList.toggle("desplegar")
 });      
 
-// tabs
+// tabs 
 function openTab(tabName) {
     var tabs = document.querySelectorAll('.tab');
     tabs.forEach(function(tab) {
