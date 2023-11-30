@@ -280,83 +280,109 @@ aside a{
   background-position: center;
   background-size: cover;
 }
+
+/*DMT*//*Marihuana*/
 /* header */
-.cabezal-prueba{
-  align-items: center;
-  background: linear-gradient(#00ffff72, #1e25253a), url(weed.gif);
-  background-size: 100px;
+.DMT-M-Fondo{
+  background: linear-gradient(#00ffff70, #1e25253a), url(mandala3.gif);
+  background-size: 20%;
   background-position: center;
-  height: 500px;
 }
-.cabezal-prueba .enlace{
+.DMT-M-Fondo .enlace{
   text-align: right;  
   padding: 20px 20px;
 }
-.cabezal-prueba .enlace a{
+.DMT-M-Fondo .enlace a{
   padding: 20px 20px;
   color: #fff;
   font-size: 30px;
 }
-.cabezal-prueba .logo img{
-  width: 100px;
+.DMT-M-Fondo .logo img{
+  filter: brightness(150%);
+  width: 300px;
   height: 143px;
   padding: 20px 20px;
   margin-top: -80px;
 }
-.prueba-en-con .cabezal-prueba .titulo {
+.Dmt-M .DMT-M-Fondo .titulo {
   margin-top:200px;
   color: #fff;
 }
-.prueba-en-con .cabezal-prueba .titulo h1{
+.Dmt-M .DMT-M-Fondo .titulo h1{
   margin: 0;
   padding: 40px 50px;
   font-size: 50px;
 }
-
-/* section  prueba-entrada*/
-.con-entrada-prueba{
+/* section tanto para DMT como Marihuana*/
+.DMT-M-expli{
   width: 100%;
   height: 100%;
   background: #282C34;
   color: white;
 }
-
-.con-entrada-prueba h1{
+.DMT-M-expli h1{
+  margin: 0;
   font-size: 50px;
   padding: 10px 10px;
 }
-.con-entrada-prueba .explicacion{
+.DMT-M-expli .explicacion{
   padding: 20px 20px;
-  font-size: 30px;
+  font-size: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   transition: 3s;
-  
+}
+.DMT-M-expli .explicacion h2 {
+  margin:0;
+}
+.DMT-M-expli .explicacion .origen {
+  grid-column: span 2; 
 }
 
-.con-entrada-prueba .nav-cont{
+.DMT-M-expli .imagen img {
+  width: 500px;
+  height: 350px;
+}
+.DMT-M-expli .nav-cont{
   text-align: center;
   padding: 20px 20px;
 }
-.con-entrada-prueba .nav-cont a{
+.DMT-M-expli .nav-cont a{
   text-decoration: none;
   color: white;
   padding: 10px 10px;
   border-radius: 10px;
   transition: 1s;
 }
-.con-entrada-prueba .nav-cont a:hover{
+.DMT-M-expli .nav-cont a:hover{
   background-color: #B2FF4D;
   color: #1e2525;
 }
 
-/* section prueba-con */
-.prueba-con{
+/* section efectos consecuencias precauciones y consumo */
+.drogas-con{
 width: 100%;
 height: 90vh;
 background-color:#282C34;
 }
+.drogas-con h1{
+  margin: 0;
+  color: #fff;
+  padding: 10px 10px;
+}
+.drogas-con p {
+  color: #fff;
+  padding: 10px 10px;
+}
+
+
+
+
+
+
+
+
 
 /* .container{
   align-items: center;
