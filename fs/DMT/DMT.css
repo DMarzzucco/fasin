@@ -1,0 +1,243 @@
+html, body{
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  overflow-x: hidden;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+p::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+
+/* contenido de los documentos */
+/* header de prueba-con */
+.prueba-conNav{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  background: linear-gradient(#1e2525b2, #1e252599), url(nd.gif);
+  background-position: 100px;
+}
+.prueba-conNav .logo img{
+  width: 200px;
+  height: 85px;
+}
+.prueba-conNav .nav{
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 10px;
+  
+}
+.prueba-conNav .nav a{
+  text-decoration: none;
+  color: #B2FF4D;
+  padding: 9px 9px;
+  border-radius: 50px;
+  transition: 1s;
+}
+.prueba-conNav .nav a:hover{
+  background-color:#b2ff4d84;
+  color: #1e2525;
+}
+
+/* container */
+.prueba-en-con{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/*DMT*/
+/* header */
+.DMT-Fondo{
+  background: linear-gradient(#00ffff70, #1e25253a), url(mandala3.gif);
+  background-size: 20%;
+  background-position: center;
+}
+.DMT-Fondo .enlace{
+  text-align: right;  
+  padding: 20px 20px;
+}
+.DMT-Fondo .enlace a{
+  padding: 20px 20px;
+  color: #fff;
+  font-size: 30px;
+}
+.DMT-Fondo .logo img{
+  filter: brightness(150%);
+  width: 300px;
+  height: 143px;
+  padding: 20px 20px;
+  margin-top: -80px;
+}
+.Dmt .DMT-Fondo .titulo {
+  margin-top:200px;
+  color: #fff;
+}
+.Dmt .DMT-Fondo .titulo h1{
+  margin: 0;
+  padding: 40px 50px;
+  font-size: 50px;
+}
+/* section tanto para DMT como Marihuana*/
+.DMT-expli{
+  width: 100%;
+  height: 100%;
+  background: #282C34;
+  color: white;
+}
+.DMT-expli h1{
+  margin: 0;
+  font-size: 50px;
+  padding: 10px 10px;
+}
+.DMT-expli .explicacion{
+  padding: 20px 20px;
+  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  transition: 3s;
+}
+.DMT-expli .explicacion h2 {
+  margin:0;
+}
+.DMT-expli .explicacion .origen {
+  grid-column: span 2; 
+}
+
+.DMT-expli .imagen img {
+  width: 500px;
+  height: 350px;
+}
+.DMT-expli .nav-cont{
+  text-align: center;
+  padding: 20px 20px;
+}
+.DMT-expli .nav-cont a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.DMT-expli .nav-cont a:hover{
+  background-color: #B2FF4D;
+  color: #1e2525;
+}
+
+/* section efectos consecuencias precauciones y consumo */
+.dmt-con {
+  width: 100%;
+  height: 100%;
+  background-color: #282C34;
+  display: grid;
+  grid-template-columns: 1fr;  
+  gap: 10px; 
+}
+.dmt-con h1,h4{
+  margin: 0;
+  color: #fff;
+  padding: 10px 10px;
+}
+.dmt-con p {
+  color: #fff;
+  padding: 10px 10px;
+  grid-column: span 2;
+}
+
+.dmt-con .fu-va {
+  grid-column: 2/3;
+}
+.dmt-con .img-Aya {
+  width: 498px;
+  height: 382px;
+  grid-column: 1/2;
+}
+.dmt-con .via-oral {
+  grid-column: 2/3;
+}
+
+.dmt-con h4 {
+  grid-column: span 2;
+  text-align: center;
+  border: 18px outset #92ff50;
+  background: #f00;
+}
+
+
+
+/*acordeon - efectos*/
+h3 {
+  margin: 0;
+  color: #ffffff;
+  padding: 10px 10px;
+  background-color: #1e2525; 
+  cursor: pointer;
+}
+
+.acor-content {
+  background: #fff;
+  display: none;
+  border: 1px solid #000;
+}
+.acor-content p {
+  color: #000;
+  padding: 0;
+}
+h3:hover {
+  background-color: #5da500; 
+}
+
+h3.active + .acor-content {
+  display: block;
+}
+
+
+
+/* footer */
+footer {
+  color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+}
+footer .box{
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 20px 20px;
+}
+footer img{
+  width: 200px;
+  height: 200px;
+}
+
+footer .enlaces{
+  margin: 0;
+  background-color:#1e2525;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .enlaces a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color:#B2FF4D;
+  padding: 20px;
+  text-align: center;
+}
+footer .copia-deauto{
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
