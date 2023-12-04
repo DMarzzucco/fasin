@@ -17,8 +17,9 @@ p::selection{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  background: linear-gradient(#1e2525b2, #1e252599), url(nd.gif);
-  background-position: 100px;
+  background: linear-gradient(#1e2525b2, #1e252599), url(universo11.gif);
+  background-position: center;
+  background-size: 20%;
 }
 .prueba-conNav .logo img{
   width: 200px;
@@ -88,8 +89,9 @@ p::selection{
 .DMT-expli{
   width: 100%;
   height: 100%;
-  background: #282C34;
   color: white;
+  background: linear-gradient(173deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(FondoLoco.jpg);
+  background-size: cover;
 }
 .DMT-expli h1{
   margin: 0;
@@ -101,8 +103,6 @@ p::selection{
   font-size: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
-  transition: 3s;
 }
 .DMT-expli .explicacion h2 {
   margin:0;
@@ -133,6 +133,8 @@ p::selection{
 
 /* section efectos consecuencias precauciones y consumo */
 .dmt-con {
+  background: linear-gradient(173deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(FondoLoco.jpg);
+  background-size: cover;
   width: 100%;
   height: 100%;
   background-color: #282C34;
@@ -163,22 +165,28 @@ p::selection{
   grid-column: 2/3;
 }
 
+
+/*Precauciones*/
 .dmt-con h4 {
   grid-column: span 2;
   text-align: center;
-  border: 18px outset #92ff50;
+  border: 15px outset #92ff50;
   background: #f00;
+}
+.dmt-con h4:hover {
+  box-shadow: 14px 17px 121px -22px rgba(255,255,255,0.81);
 }
 
 
-
-/*acordeon - efectos*/
+/*acordeon - efectos/precauciones*/
 h3 {
   margin: 0;
   color: #ffffff;
   padding: 10px 10px;
   background-color: #1e2525; 
   cursor: pointer;
+  width: 100vw;
+  border: 2px solid #000000;
 }
 
 .acor-content {
