@@ -67,6 +67,7 @@ aside a{
   width: 100%;
   padding: 10px 20px;
   cursor: pointer;
+  transition: .4s;
 }
 .inicio-salid div:hover{
   background-color: #230e6e;
@@ -95,10 +96,33 @@ aside a{
   width: 100%;
   padding: 10px 20px;
   cursor: pointer;
+  transition: .4s;
 }
-.kid-psico div:hover{
-  background-color: #66aa0c;
+.kid-psico .maria:hover{
+  background-color: greenyellow;
 }
+.kid-psico .maria:hover p{
+  color: green;
+}
+.kid-psico .hongo:hover{
+  background-color: yellow;
+}
+.kid-psico .hongo:hover p{
+  color: #181818;
+}
+.kid-psico .lsd:hover{
+  background-color: blue;
+}
+.kid-psico .lsd:hover p{
+  color: pink;
+}
+.kid-psico .dmt:hover{
+  background-color: purple;
+}
+.kid-psico .dmt:hover p{
+  color:black;
+}
+
 .kid-psico img{
   width: 30px;
   height: 30px;
