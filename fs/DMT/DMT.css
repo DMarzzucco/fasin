@@ -10,6 +10,14 @@ p::selection{
   background: #B2FF4D;
   color: #000;
 }
+li::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+u::selection{
+  background: #B2FF4D;
+  color: #000;
+}
 
 /* contenido de los documentos */
 /* header de prueba-con */
@@ -90,7 +98,7 @@ p::selection{
   width: 100%;
   height: 100%;
   color: white;
-  background: linear-gradient(173deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(FondoLoco.jpg);
+  background: linear-gradient(173deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(fractales5.gif);
   background-size: cover;
 }
 .DMT-expli h1{
@@ -142,7 +150,7 @@ p::selection{
   grid-template-columns: 1fr;  
   gap: 10px; 
 }
-.dmt-con h1,h4{
+.dmt-con h1,h4,h2{
   margin: 0;
   color: #fff;
   padding: 10px 10px;
@@ -164,10 +172,11 @@ p::selection{
 .dmt-con .via-oral {
   grid-column: 2/3;
 }
-
 /*Precauciones*/
 .dmt-con h4 {
+  width: 500px;
   grid-column: span 2;
+  margin: auto;
   text-align: center;
   border: 15px outset #92ff50;
   background: #f00;
@@ -203,7 +212,6 @@ h3:hover {
 h3.active + .acor-content {
   display: block;
 }
-
 /*cartas consecuencias*/
 
 .container{
