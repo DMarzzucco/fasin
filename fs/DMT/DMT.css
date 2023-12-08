@@ -219,6 +219,9 @@ u::selection{
   display: block;
 }
 
+.tab-content ul {
+  color: #fff;
+}
 
 
 
