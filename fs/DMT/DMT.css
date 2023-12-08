@@ -184,33 +184,43 @@ u::selection{
   box-shadow: 14px 17px 121px -22px rgba(255,255,255,0.81);
 }
 
-/*acordeon - efectos/precauciones*/
-h3 {
-  margin: 0;
+
+/*Pestañas efecto y precauciones*/
+
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.tab-container {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.tab {
+  text-align: center;
+  padding: 10px;
+  background-color: #1e2525;
   color: #ffffff;
-  padding: 10px 10px;
-  background-color: #1e2525; 
   cursor: pointer;
-  width: 100vw;
   border: 2px solid #000000;
 }
-
-.acor-content {
-  background: #fff;
+.tab:hover{
+  background: #5da500;
+}
+.tab-content {
   display: none;
-  border: 1px solid #000;
-}
-.acor-content p {
-  color: #000;
-  padding: 0;
-}
-h3:hover {
-  background-color: #5da500; 
+  box-shadow: 33px 9px 75px -1px rgba(255,255,255,0.5);
+  padding: 10px;
 }
 
-h3.active + .acor-content {
+.tab-content.active {
   display: block;
 }
+
+
+
 
 /*cartas consecuencias*/
 .container{
@@ -322,18 +332,6 @@ h3.active + .acor-content {
   justify-content: top;
   align-items: top;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* footer */
 footer {
