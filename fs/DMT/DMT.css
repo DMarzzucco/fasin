@@ -18,7 +18,14 @@ u::selection{
   background: #B2FF4D;
   color: #000;
 }
-
+h1::selection {
+  background: #B2FF4D;
+  color: #000;
+}
+h2::selection{
+  background: #B2FF4D;
+  color: #000;
+}
 /* contenido de los documentos */
 /* header de prueba-con */
 .prueba-conNav{
@@ -205,6 +212,7 @@ u::selection{
   color: #ffffff;
   cursor: pointer;
   border: 2px solid #000000;
+  /*height: 150px; cuando haga lo de responsive cambiar el tamaño en esta parte para que no se habra hasta abajo*/
 }
 .tab:hover{
   background: #5da500;
