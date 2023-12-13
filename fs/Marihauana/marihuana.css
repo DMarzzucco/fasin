@@ -1,0 +1,228 @@
+html, body{
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  overflow-x: hidden;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+p::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+li::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+u::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+h1::selection {
+  background: #B2FF4D;
+  color: #000;
+}
+h2::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+
+
+/* header de prueba-con */
+.prueba-conNav{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  background: linear-gradient(#1e2525b2, #1e252599), url();
+  background-position: 100px;
+}
+.prueba-conNav .logo img{
+  width: 200px;
+  height: 85px;
+}
+.prueba-conNav .nav{
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 10px;
+  
+}
+.prueba-conNav .nav a{
+  text-decoration: none;
+  color: #B2FF4D;
+  padding: 9px 9px;
+  border-radius: 50px;
+  transition: 1s;
+}
+.prueba-conNav .nav a:hover{
+  background-color:#b2ff4d84;
+  color: #1e2525;
+}
+
+/* container */
+.prueba-en-con{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* header */
+.Marihuana-Fondo{
+  align-items: center;
+  background: linear-gradient(#00ffff72, #1e25253a), url(Flores.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+.Marihuana-Fondo .enlace{
+  text-align: right;  
+  padding: 20px 20px;
+}
+.Marihuana-Fondo .enlace a{
+  padding: 20px 20px;
+  color: #fff;
+  font-size: 30px;
+}
+.Marihuana-Fondo .logo img{
+  filter: brightness(150%);
+  width: 300px;
+  height: 143px;
+  padding: 20px 20px;
+  margin-top: -80px;
+}
+.Marihuana .Marihuana-Fondo .titulo {
+  margin-top:200px;
+  color: #fff;
+}
+.Marihuana .Marihuana-Fondo .titulo h1{
+  margin: 0;
+  padding: 40px 50px;
+  font-size: 50px;
+}
+
+/* section */
+.Marihuana-expli{
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(173deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(relajao.gif);
+  background-size: 100%;
+  display: grid;
+  color: white;
+}
+
+.Marihuana-expli h1{
+  margin: 0;
+  font-size: 50px;
+  padding: 10px 10px;
+}
+.Marihuana-expli .explicacion{
+  padding: 20px 20px;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Marihuana-expli .explicacion .historia{
+  grid-column: 2/ 3;
+  grid-row: 2/3;
+  text-align: left;
+}
+.Marihuana-expli .explicacion .Historia-infop2 {
+  grid-column: span 2;
+}
+/*section imagenes*/
+.Marihuana-expli .imagen-Homero {
+  grid-column: 2 / 3; 
+  grid-row: 1 / 2; 
+  text-align: center;
+}
+.Marihuana-expli .imagen-Homero img {
+  width: 500px;
+  height: 350px;
+}
+.Marihuana-expli .imagen-Historia {
+  grid-column: 1 / 2; 
+  grid-row: 2 / 3; 
+  text-align: center;
+  height: 500px;
+}
+
+.Marihuana-expli .nav-cont{
+  text-align: center;
+  padding: 20px 20px;
+}
+.Marihuana-expli .nav-cont a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.Marihuana-expli .nav-cont a:hover{
+  background-color: #B2FF4D;
+  color: #1e2525;
+}
+
+
+
+
+
+/* section efectos y el resto*/
+.Marihuana-con{
+width: 100%;
+height: 100%;
+background-color:#282C34;
+}
+
+
+
+
+/* footer */
+footer {
+    background: linear-gradient(90deg, rgba(4,64,0,0.5) 0%, rgba(4,64,0,0.5) 100%), url(footer-inicio1.gif);
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+  }
+  footer .box{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 20px 20px;
+  }
+  
+  
+  footer img{
+    width: 200px;
+    height: 200px;
+  }
+  
+  footer .enlaces{
+    margin: 0;
+    background-color:#1e2525;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .enlaces a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:#B2FF4D;
+    padding: 20px;
+    text-align: center;
+  }
+  footer .copia-deauto{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
