@@ -132,6 +132,22 @@ h2::selection{
 .Marihuana-expli .explicacion .Historia-infop2 {
   grid-column: span 2;
 }
+
+/*diferencias*/
+.container-diferencias {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+ 
+}
+.sativa, .indica {
+  width: 45%;
+  padding: 15px;
+  border: 10px double #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
 /*section imagenes*/
 .Marihuana-expli .imagen-Homero {
   grid-column: 2 / 3; 
@@ -148,6 +164,16 @@ h2::selection{
   text-align: center;
   height: 500px;
 }
+.Marihuana-expli .imagen-diferencias {
+  grid-column: span 2;
+  text-align: center;
+  height: 500px;
+}
+.Marihuana-expli .imagen-diferencias img {
+  width: 800px;
+  height: 450;
+}
+/*final de section imagenes*/
 
 .Marihuana-expli .nav-cont{
   text-align: center;
@@ -168,12 +194,30 @@ h2::selection{
 
 
 
-
 /* section efectos y el resto*/
 .Marihuana-con{
 width: 100%;
 height: 100%;
 background-color:#282C34;
+}
+
+/*efectos*/
+.container-efectos {  /*usar esta estructura para efectos*/
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.sativa-efectos, .indica-efectos {
+  width: 45%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.sativa-efectos, .indica-efectos{
+  background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
 }
 
 
