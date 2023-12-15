@@ -14,6 +14,10 @@ li::selection{
   background: #B2FF4D;
   color: #000;
 }
+ul::selection{
+  background: #B2FF4D;
+  color: #000;
+}
 u::selection{
   background: #B2FF4D;
   color: #000;
@@ -26,6 +30,11 @@ h2::selection{
   background: #B2FF4D;
   color: #000;
 }
+h3::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+
 
 
 /* header de prueba-con */
@@ -33,8 +42,7 @@ h2::selection{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
-  background: linear-gradient(#1e2525b2, #1e252599), url();
-  background-position: 100px;
+  background: linear-gradient(#1e2525b2, #1e252599), url(nav\ marihuana.png);
 }
 .prueba-conNav .logo img{
   width: 200px;
@@ -192,22 +200,30 @@ h2::selection{
 }
 
 
-
-
 /* section efectos y el resto*/
 .Marihuana-con{
 width: 100%;
 height: 100%;
-background-color:#282C34;
+background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(marihuana-efectos-F.gif);
+background-position: center;
+position: relative;
+}
+.Marihuana-con h1 {
+  margin:0;
+  color: #ADFF2F;
+  text-align: center;
+  font-size: 30px;
 }
 
 /*efectos*/
+.Marihuana-con .imagen-S-I {
+  text-align: center;
+}
 .container-efectos {  /*usar esta estructura para efectos*/
   display: flex;
   justify-content: space-around;
   margin: 0;
 }
-
 .sativa-efectos, .indica-efectos {
   width: 45%;
   padding: 15px;
@@ -215,10 +231,72 @@ background-color:#282C34;
   border-radius: 8px;
   box-sizing: border-box;
 }
-
 .sativa-efectos, .indica-efectos{
   background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
+  color: #fff;
 }
+
+/*ventana Bob y Patricio*/
+.ventana {
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(hojaweed.gif);
+  background-size: cover;
+  color: #fff;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 70%;
+  max-height: 70vh;
+  overflow-y: auto; 
+  box-sizing: border-box;
+}
+
+.modal-content h3 {
+  margin: 0;
+}
+.modal-content p {
+  margin: 5;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+/* barra de desplazamiento */
+.modal-content::-webkit-scrollbar {
+  width: 10px; 
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #B2FF4D; 
+  border-radius: 10px; 
+}
+
+
+
+
 
 
 
