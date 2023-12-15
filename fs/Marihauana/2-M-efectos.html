@@ -37,14 +37,58 @@
 
 <!-- section -->
 <section class="Marihuana-con">
+    <h1>Toca a Bob o a Patricio</h1>
     <div class="imagen-S-I">
-        <img src="Sativa-Indica.png" alt=""><!--centrar imagen-->
+        <img src="Sativa-Indica.png" alt="" class="ventana" onclick="openModal()">
     </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div id="modal-inner-content">
+         <p>Si queremos conseguir cierto efecto a la hora de consumir marihuana debemos saber ciertas cosas. Tenemos que conocer los químicos 
+            que contiene el cannabis para entender mejor que efectos tendrá.<br>
+            Aclaración importante: Si solo te interesan los efectos a nivel psicoactivo del cannabis, entonces cierra esta ventana y mira los efectos de Sativa e indica
+            porque aqui se habla mas de los efectos de los quimicos que nos pueden beneficiar y que en general son cosas que se deben consumir en formato aceite.</p>
+            <h3>Cannabinoides</h3>
+               <p>Los cannabinoides son compuestos naturales presentes en las especies de la familia de las cannabáceas, y desempeñan un papel
+                 fundamental en los efectos positivos y negativos asociados con el consumo de cannabis</p>
+            <ul>
+                <li><u>Tetrahidrocannabinol (THC):</u> es el principal constituyente, induce a un estado de euforia y altera la percepción sensorial. 
+                    Se usa por sus propiedades recreativas y terapéuticas, además el THC puede aliviar el estrés y estimular el apetitivo.</li><br>
+                <li><u>Cannabidiol (CBD):</u> junto al THC es también de los principales componentes con la diferencia de que este compuesto no produce euforia, en su lugar está asociado a beneficios para la salud como aliviar el dolor, las nauseas, migrañas y prevenir convulsiones.<br>
+                    El CBD es utilizado en tratamientos medicinales para diversos trastornos y ofrece un alivio sin los efectos psicoactivos asociado al THC.  </li><br>
+                <li><u>Cannabinol (CBN):</u> asociado a la disminución de síntomas y efectos secundarios de trastornos neurológicos. Tiene propiedades sedantes. <br>
+                    Esta parte ha sido explorada en el tratamiento de convulsiones, epilepsia y rigidez muscular, el CBN muestra potencial en el manejo de trastornos neurológicos. </li><br>
+                <li><u>Ácido tetrahidrocannabinol (THCA):</u> es similar al THC en cuanto a estructura molecular, pero la diferencia es que el THCA es la forma natural del THC, solo que cuando al THCA lo ponemos en un proceso de calentamiento, conocido como descarboxilación, para convertirse en THC activo. <br>
+                    Si nos interesa esto, deberemos extraerlo de una forma en donde no entre el calor, pero eso ya es otro tema que aquí no se ve.<br>
+                    No es psicoactivo y se le atribuyen beneficios antiinflamatorios frente a la artritis y enfermedades autoinmunes, también se lo ha investigado para aliviar síntomas de enfermedades como el Parkinson y la esclerosis lateral amiotrófica(ELA)<br>
+                    Su investigación aún está en las etapas iniciales y se necesita más estudio para comprender completamente sus efectos. Siempre investigar bien antes de consumir cualquier cosa por mas beneficios que tenga.</li><br>
+                <li><u>Cannabigerol (CBG):</u> relacionado con el alivio de la ansiedad, la depresión y los síntomas del trastorno obsesivo-compulsivo (TOC) y también está considerado para el tratamiento de trastornos de ansiedad y depresión, el CBG muestra potencial en el ámbito de la salud mental.</li><br>
+            </ul>
+            <br>
+            <h3>Terpenos</h3>
+            <p>Si bien el contenido de THC y CBD suele acaparar la atención, los terpenos han adquirido importancia significativa en la actualidad. Estos compuestos, presentes de forma natural en la planta de cannabis, no solo contribuyen al aroma característico, sino que también ofrecen efectos distintivos a las diferentes cepas.</p><br>
+            <ul>
+                <li><u>Bisabolol:</u> vinculado con propiedades antiinflamatorias y analgésicas.</li><br>
+                <li><u>Cariofileno:</u> podría aliviar la ansiedad, los síntomas de la depresión y tratar úlceras.</li><br>
+                <li><u>Linalool:</u> se cree que propicia la relajación y mejora el estado de ánimo.</li><br>
+                <li><u>Mirceno:</u> conocido por ser el terpeno más frecuente. Sus beneficios incluyen la reducción de la ansiedad y del insomnio.</li><br>
+                <li><u>Ocimeno:</u> tiene diversos beneficios para la salud, como combatir la congestión, efectos antitumorales, anticonvulsivo, entre otros. </li><br>
+                <li><u>Pineno:</u> ayuda a mejorar la memoria y aliviar el dolor.</li><br>
+                <li><u>Terpinoleno:</u> ofrece propiedades sedantes, antibacterianas y antifúngicas.</li><br>
+                <li><u>Limoneno:</u> podría disminuir los niveles de estrés y mejorar el estado de ánimo.</li><br>
+                <li><u>Humuleno:</u> cuenta con propiedades antiinflamatorias.</li><br>
+                <li><u>Eucaliptol:</u> además de reducir la inflamación, podría ayudar a combatir bacterias.</li><br>
+            </ul>    
+        </div>
+      </div>
+    </div>
+
     <div class="container-efectos">
         <div class="sativa-efectos">
             <p>
-                información sativa idea; la sativa como bien vemos en nuestra perfecta ilustracion de Bob Esponja tiende a tener
-                un efecto mas de euforia
+                La sativa tiende a tener un efecto mas de euforia como bien vemos en nuestra perfecta
+                ilustración de Bob Esponja. Sin embargo, no es el único, con la sativa podemos experimentar:<br><br>
             </p>   
         </div>
         <div class="indica-efectos">
@@ -53,6 +97,11 @@
     </div>
 
 </section>
+
+
+
+
+
 <!-- footer -->
     <footer>
         <!-- <div class="box">   
@@ -77,7 +126,8 @@
         </div>
     </footer>
         <!-- en el caso que quieras tener tu propio documento js en la carpeta solo debes sacar el '/' -->
-    <script src="/fs/script.js"></script>
+    <!-- <script src="/fs/script.js"></script> -->
+    <script src="marihuana.js"></script>
     </section>
 
 </body>
