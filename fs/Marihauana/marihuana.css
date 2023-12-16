@@ -224,17 +224,38 @@ position: relative;
   justify-content: space-around;
   margin: 0;
 }
-.sativa-efectos, .indica-efectos {
+.sativa-efectos, .indica-efectos{
   width: 45%;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 8px;
   box-sizing: border-box;
 }
-.sativa-efectos, .indica-efectos{
+.indica-efectos {
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(indica_3.jpg);
+  color: #fff;
+}
+.sativa-efectos {
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(sativa.jpg);
+  color: #fff;
+}
+.container-e-generales {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.efectos-generales {
+  width: 45%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
   background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
   color: #fff;
 }
+
+
+
 
 /*ventana Bob y Patricio*/
 .ventana {
