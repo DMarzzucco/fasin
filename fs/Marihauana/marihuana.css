@@ -320,20 +320,12 @@ position: relative;
   justify-content: space-around;
   box-sizing: border-box; /* Asegura que el ancho incluya el relleno y el borde */
 }
-
 .consumo-1{
   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vapear-fumar.png);
   color: #fff;
   width: 400px;
   height: 600px;
   border-radius: 5%;
-}
-.consumo-1 h2 {
-  text-align: center;
-}
-.consumo-1 p{
-  margin: 10px; 
-  padding: 10px; 
 }
 .consumo-2{
   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(comida-cannabica.png);
@@ -342,14 +334,15 @@ position: relative;
   height: 600px;
   border-radius: 5%;
 }
+.consumo-1 h2,
 .consumo-2 h2 {
   text-align: center;
 }
-.consumo-2 p{
+.consumo-1 p,
+.consumo-2 p {
   margin: 10px; 
   padding: 10px; 
 }
-
 
 
 
