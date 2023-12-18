@@ -200,7 +200,7 @@ h3::selection{
 }
 
 
-/* section efectos y el resto*/
+/* section efectos,consumo,híbridos,precauciones y consecuencias*/
 .Marihuana-con{
 width: 100%;
 height: 100%;
@@ -253,10 +253,6 @@ position: relative;
   background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
   color: #fff;
 }
-
-
-
-
 /*ventana Bob y Patricio*/
 .ventana {
   cursor: pointer;
@@ -315,6 +311,44 @@ position: relative;
   border-radius: 10px; 
 }
 
+/*Consumo*/
+
+.container-consumo {
+  top:80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box; /* Asegura que el ancho incluya el relleno y el borde */
+}
+
+.consumo-1{
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vapear-fumar.png);
+  color: #fff;
+  width: 400px;
+  height: 600px;
+  border-radius: 5%;
+}
+.consumo-1 h2 {
+  text-align: center;
+}
+.consumo-1 p{
+  margin: 10px; 
+  padding: 10px; 
+}
+.consumo-2{
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(comida-cannabica.png);
+  color: #fff;
+  width: 400px;
+  height: 600px;
+  border-radius: 5%;
+}
+.consumo-2 h2 {
+  text-align: center;
+}
+.consumo-2 p{
+  margin: 10px; 
+  padding: 10px; 
+}
 
 
 
