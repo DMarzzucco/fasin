@@ -358,30 +358,22 @@ position: relative;
   box-shadow: 29px 24px 58px 10px rgba(0,0,0,0.75);
   background: linear-gradient(90deg, rgba(248,91,255,0.5) 0%, rgba(103,255,92,0.5) 100%);
 }
-
-
-
-
-
-
+/*cartas*/
 .container{
   position: relative;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
 .container .card{
   position: relative;
   cursor: pointer;
 }
-
 .container .card .face{
   width: 300px;
   height: 200px;
   transition: 0.5s;
 }
-
 .container .card .face.face1{
   position: relative;
   background: #333;
@@ -391,12 +383,10 @@ position: relative;
   z-index: 1;
   transform: translateY(100px);
 }
-
 .container .card:hover .face.face1{
   background: #ff0057;
   transform: translateY(0);
 }
-
 .container .card .face.face1.img1 {
   background: url(GirlScocutCookies2-min.jpg) center center no-repeat;
   background-size: cover; 
@@ -429,8 +419,6 @@ position: relative;
   background: url(ak-47.jpg) center center no-repeat;
   background-size: cover; 
 }
-
-
 .container .card .face.face1 .content .h3-cartas{
   margin: 10px 0 0;
   padding: 0;
@@ -448,8 +436,6 @@ position: relative;
   opacity: 0;
   transition: 0.4s ease; /*pa que el titulo desaparezca y se vea la img*/
 }
-
-
 .container .card .face.face2{
   position: relative;
   background: #fff;
@@ -461,11 +447,9 @@ position: relative;
   transform: translateY(-100px);
   padding: 5;
 }
-
 .container .card:hover .face.face2{
   transform: translateY(0);
 }
-
 .container .card .face.face2 .content p {
   margin: 0;
   padding: 0;
@@ -475,27 +459,6 @@ position: relative;
 }
 
 
-
-
-
-
-
-
-
-.contasdasdasdaales {
-  display: flex;
-  justify-content: space-around;
-  margin: 0;
-}
-.efecasdasadsdasds {
-  width: 45%;
-  padding: 15px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-  box-sizing: border-box;
-  background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
-  color: #fff;
-}
 
 
 
