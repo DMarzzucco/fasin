@@ -34,7 +34,9 @@ h3::selection{
   background: #B2FF4D;
   color: #000;
 }
-
+h1,h2,h3 {
+  margin: 0;
+}
 
 
 /* header de prueba-con */
@@ -209,7 +211,6 @@ background-position: center;
 position: relative;
 }
 .Marihuana-con h1 {
-  margin:0;
   color: #ADFF2F;
   text-align: center;
   font-size: 30px;
@@ -219,7 +220,7 @@ position: relative;
 .Marihuana-con .imagen-S-I {
   text-align: center;
 }
-.container-efectos {  /*usar esta estructura para efectos*/
+.container-efectos { 
   display: flex;
   justify-content: space-around;
   margin: 0;
@@ -281,10 +282,6 @@ position: relative;
   overflow-y: auto; 
   box-sizing: border-box;
 }
-
-.modal-content h3 {
-  margin: 0;
-}
 .modal-content p {
   margin: 5;
 }
@@ -312,13 +309,13 @@ position: relative;
 }
 
 /*Consumo*/
-
 .container-consumo {
-  top:80px;
+  margin-top: 40px;
   width: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: space-around;
-  box-sizing: border-box; /* Asegura que el ancho incluya el relleno y el borde */
+  box-sizing: border-box; 
 }
 .consumo-1{
   background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vapear-fumar.png);
@@ -344,6 +341,161 @@ position: relative;
   padding: 10px; 
 }
 
+/*Hibridos*/
+.intro-hibri {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.intro-hibri2{
+  width: 600px;
+  height: 300px;
+  margin: 10px; 
+  padding: 10px; 
+  border-radius: 5%;
+  box-shadow: 29px 24px 58px 10px rgba(0,0,0,0.75);
+  background: linear-gradient(90deg, rgba(248,91,255,0.5) 0%, rgba(103,255,92,0.5) 100%);
+}
+
+
+
+
+
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.container .card{
+  position: relative;
+  cursor: pointer;
+}
+
+.container .card .face{
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+
+.container .card .face.face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+
+.container .card:hover .face.face1{
+  background: #ff0057;
+  transform: translateY(0);
+}
+
+.container .card .face.face1.img1 {
+  background: url(GirlScocutCookies2-min.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img2{
+  background: url(HS0016-blue-dream_660x990.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img3{
+  background: url(og-kush_2666_1_.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img4{
+  background: url(sour-diesel.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img5{
+  background: url(White-Widow.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img6{
+  background: url(jack_herer.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img7{
+  background: url(pineapple-express.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img8{
+  background: url(ak-47.jpg) center center no-repeat;
+  background-size: cover; 
+}
+
+
+.container .card .face.face1 .content .h3-cartas{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  width: 300px;
+  margin: 0; 
+  position: absolute;
+  top: 0; 
+  left: 0;
+  background-color: #000;
+}
+.container .card:hover .face.face1 .content .h3-cartas {
+  opacity: 0;
+  transition: 0.4s ease; /*pa que el titulo desaparezca y se vea la img*/
+}
+
+
+.container .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+  padding: 5;
+}
+
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  justify-content: top;
+  align-items: top;
+}
+
+
+
+
+
+
+
+
+
+.contasdasdasdaales {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.efecasdasadsdasds {
+  width: 45%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
+  color: #fff;
+}
 
 
 
