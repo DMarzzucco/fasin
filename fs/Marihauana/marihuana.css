@@ -37,7 +37,9 @@ h3::selection{
 h1,h2,h3 {
   margin: 0;
 }
-
+.Marihuana-con p {
+  color: #fff;
+}
 
 /* header de prueba-con */
 .prueba-conNav{
@@ -318,16 +320,16 @@ position: relative;
   box-sizing: border-box; 
 }
 .consumo-1{
-  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vapear-fumar.png);
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vapear-fumar2.png);
   color: #fff;
-  width: 400px;
+  width: 500px;
   height: 600px;
   border-radius: 5%;
 }
 .consumo-2{
-  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(comida-cannabica.png);
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(comida-cannabica2.png);
   color: #fff;
-  width: 400px;
+  width: 500px;
   height: 600px;
   border-radius: 5%;
 }
@@ -339,6 +341,39 @@ position: relative;
 .consumo-2 p {
   margin: 10px; 
   padding: 10px; 
+}
+.Marihuana-con h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #B2FF4D;
+}
+.container-D-vf{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  box-sizing: border-box; 
+}
+
+.vaporización {
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vaporizacion.png);
+  border-radius: 5%;
+  color: #fff;
+}
+.vaporización ul {
+  margin-top: 60px;
+}
+.fumar{
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(combustion.png);
+  border-radius: 5%;
+  color: #fff;
+}
+.fumar ul{
+  margin-top: 60px;
 }
 
 /*Hibridos*/
@@ -461,7 +496,7 @@ position: relative;
 
 /*Precauciones*/
 .section1 {
-  background-color: #ce6464;
+  background-color: #511d6e;
   height: 105vh;
   color: #fff; 
 }
@@ -475,7 +510,7 @@ position: relative;
 
 /* Sección 2*/
 .section2 {
-  background-color: #4fbb4f;
+  background-color: #6e1d6a;
   height: 80vh;
   color: #fff;
   position: relative; 
@@ -490,7 +525,7 @@ position: relative;
 }
 /* Sección 3*/
 .section3 {
-  background-color: #ff9fe7;
+  background-color: #813370;
   height: 80vh;
   color: #fff; 
   position: relative; 
@@ -503,8 +538,32 @@ position: relative;
   right: 0;
 }
 /*mal viaje*/
-.malviaje {
+
+.container-malviaje {
+  margin-top: 40px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box; 
+}
+.consumidor-a{
+  background: linear-gradient(90deg, rgba(248,91,255,0.5) 0%, rgba(103,255,92,0.5) 100%);
   color: #fff;
+  width: 500px;
+  height: 1000px;
+  border-radius: 5%;
+}
+.compañero-a{
+  background: linear-gradient(90deg, rgba(248,91,255,0.5) 0%, rgba(103,255,92,0.5) 100%);
+  color: #fff;
+  width: 500px;
+  height: 1000px;
+  border-radius: 5%;
+}
+.consumidor-a h3,
+.compañero-a h3 {
+  text-align: center;
 }
 
 
