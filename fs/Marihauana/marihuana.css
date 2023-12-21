@@ -459,6 +459,59 @@ position: relative;
 }
 
 
+/*Precauciones*/
+.section1 {
+  background-color: #ce6464;
+  height: 105vh;
+  color: #fff; 
+}
+.section1 h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.section1 .sec1-2{
+  display: flex;
+}
+
+/* Sección 2*/
+.section2 {
+  background-color: #4fbb4f;
+  height: 80vh;
+  color: #fff;
+  position: relative; 
+}
+
+.section2 img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+}
+/* Sección 3*/
+.section3 {
+  background-color: #ff9fe7;
+  height: 80vh;
+  color: #fff; 
+  position: relative; 
+}
+.section3 img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+}
+/*mal viaje*/
+.malviaje {
+  color: #fff;
+}
+
+
+
+
+
+
 
 
 
