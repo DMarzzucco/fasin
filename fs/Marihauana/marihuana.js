@@ -13,3 +13,17 @@ function openModal() {
     }
   };
   
+
+  /*consecuencias*/
+  let currentPosition = 1;
+
+  function showCard(position) {
+    currentPosition = position;
+    updateCarousel();
+  }
+
+  function updateCarousel() {
+    const carousel = document.getElementById("carousel");
+    carousel.style.setProperty("--position", currentPosition);
+  }
+
