@@ -13,7 +13,7 @@ html, body{
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 50px;
   background: linear-gradient(rgba(0, 0, 255, 0.37), rgba(255, 0, 0, 0.288), rgba(0, 128, 0, 0.438)), url(Nav\ .gif);
-  background-position: 100px;
+  background-position: 50% 60%;
 }
 .LSD-conNav .logo img{
   width: 200px;
@@ -27,13 +27,13 @@ html, body{
 }
 .LSD-conNav .nav a{
   text-decoration: none;
-  color: #B2FF4D;
+  color: #2ef03b;
   padding: 9px 9px;
   border-radius: 50px;
   transition: 1s;
 }
 .LSD-conNav .nav a:hover{
-  background-color:#b2ff4d84;
+  background-color:#32048d;
   color: #1e2525;
 }
 
@@ -51,7 +51,7 @@ html, body{
   align-items: center;
   background: linear-gradient(#1e25257a, #282c346c), url(LSDSectCon.gif);
   background-size: cover;
-  background-position: 100px;
+  background-position: center;
   height: 500px;
 }
 .cabezal-LSD .enlace{
@@ -87,11 +87,11 @@ html, body{
   color: blue;
   text-decoration: none;
 }
-.LSD-en-con .cabezal-LSD .titulo q{
+.LSD-en-con .cabezal-LSD .titulo .s{
   color:greenyellow;
   text-decoration: none;
 }
-.LSD-en-con .cabezal-LSD .titulo b{
+.LSD-en-con .cabezal-LSD .titulo .d{
   color:red;
   text-decoration: none;
 }
@@ -99,67 +99,98 @@ html, body{
 /* section  LSD-entrada*/
 .con-entrada-LSD{
   width: 100%;
-  height: 100%;
-  background: linear-gradient(#1e252571, #1e25253a), url(navLSD.jpeg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#1e2525, #1e252588), url(navLSD.jpeg);
   background-size: cover;
+  background-position: center;
   color: white;
 }
 
-.con-entrada-LSD h1{
-  font-size: 50px;
-  padding: 10px 10px;
-}
 /* explicacion */
 .con-entrada-LSD .explicacion{
+  background: linear-gradient(rgba(255, 255, 255, 0.514), white),url(LSDQUes.jpg);
   padding: 20px 20px;
   font-size: 30px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 50px;
-  transition: 3s;
-  
+  display: flex;
+  height: auto;
+  justify-content: center;
+  align-items: center;  
+  color: #1e2525;
 }
-.con-entrada-LSD .explicacion img{
-  width: 520px;
-  height: 460px;
+.con-entrada-LSD .explicacion h1{
+  text-align: right;
+  font-size: 60px;
+  padding: 10px 10px;
 }
-
-/* origen */
-.con-entrada-LSD .origen{
-  padding: 20px 20px;
-  font-size: 30px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 30px;
+.con-entrada-LSD .explicacion .contexto{
+  width: 450px;
 }
-.con-entrada-LSD .origen .hoffmann img{
-  width: 520px;
-  height: 500px;
+.con-entrada-LSD .explicacion p{
+  font-size: 23px;
 }
-
-/* span */
-.con-entrada-LSD .span{
-  text-align: center;
-  padding: 20px 20px;
-}
-
 /* nav */
 .con-entrada-LSD .nav-cont{
+  width: 100%;
   text-align: center;
   padding: 20px 20px;
-  background: linear-gradient(#1e252513,#1e2525);
 }
 .con-entrada-LSD .nav-cont a{
   text-decoration: none;
   color: white;
   padding: 10px 10px;
   border-radius: 10px;
-  transition: 1s;
+  font-size: 24px;
+  transition: 0.7s;
 }
 .con-entrada-LSD .nav-cont a:hover{
   background-color: #B2FF4D;
+  font-size: 26px;
   color: #1e2525;
 }
+
+
+/* origen */
+.LSD{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  background: linear-gradient(#1e252598,#1e2525),url(NAvegr.jpg);
+  background-size: cover;
+  color: white;
+}
+.LSD .origen{
+  padding: 20px 20px;
+  font-size: 30px;
+  width: auto;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:linear-gradient(rgba(255, 255, 0, 0.356),yellow),url(hoffmann.jpg);
+  color: #1e2525;
+}
+.LSD  h1{
+  font-size: 100px;
+  padding: 10px 10px;
+}
+.LSD .origen .hoffmann img{
+  width: 520px;
+  height: 500px;
+}
+.LSD .origen .exp{
+  width: 500px;
+}
+.LSD p{
+  font-size: 20px;
+}
+
 
 /* CONSUMO */
 .consumo-con{
@@ -249,11 +280,14 @@ background-size: cover;
 .consumo-con .consumo .card:hover .face.face1.blotters{
   background:linear-gradient(rgba(238, 130, 238, 0.377), rgba(0, 0, 255, 0.377)), url(blooters.png);
   transform: translateY(0px);
+  background-size: cover;
+  background-position: center;
   color: white;
 }
 .consumo-con .consumo .card .face.face2.blotters{
   background: linear-gradient(rgba(0, 0, 255, 0.438), rgba(0, 128, 0, 0.479)), url(blooters2.png);
   background-size: cover;
+  background-position: center;
   color: white;
 }
 /* liquid */
@@ -334,29 +368,46 @@ background-size: cover;
   margin-left: 500px;
   transition: 1s;
   transform: translateX(200px);
+  animation: cl 2s ease infinite alternate;
+}
+@keyframes cl {
+  0%{
+    background-color: rgba(51, 8, 136, 0.472);
+  }
+  50%{
+    background-color: rgba(255, 0, 0, 0.452);
+  }
+  100%{
+    background-color: rgba(0, 128, 0, 0.437);
+  }
 }
 .efectos-con .p1:hover{
   transform: translateX(0);
-  background: linear-gradient(red, orange);
 }
 .efectos-con .p2{
-  background-color: orange;
+  background-color: green;
   width: 600px;
   margin-left: 200px;
   transition: 1s;
   transform: translateX(100px);
+  animation: dk 2s ease infinite alternate;
+}
+@keyframes dk {
+  0%{
+    background-color: rgba(0, 128, 0, 0.459);
+  }
+  50%{
+    background-color: rgba(255, 0, 0, 0.452);
+  }
+  100%{
+    background-color: rgba(0, 0, 255, 0.503);
+  }
 }
 .efectos-con .p2:hover {
   transform: translateX(0);
-  background: linear-gradient(rgb(50, 8, 136), green);
 }
-.efectos-con .p2:hover p{
-  color: white;
-}
-.efectos-con .p2 p{
-  text-align: left;
-  color: #1e2525;
-}
+
+
 .efectos-con .span{
   color: white;
   padding: 20px 20px;
@@ -446,11 +497,13 @@ background-size: cover;
 .tab.eet{
   background:linear-gradient(rgba(0, 0, 0, 0.532), rgba(128, 128, 128, 0.509) ), url(Experiencias\ Espirituales\ o\ Transcendentes.jpg);
   background-size: cover;
+  background-position: center;
   color: white;
 }
 .tab.cpe{
   background:linear-gradient(rgba(0, 0, 0, 0.532), rgba(128, 128, 128, 0.509) ), url(Cambio\ en\ la\ Persepción\ del\ Ego.jpg);
   background-size: cover;
+  background-position: center;
   color: white;
 }
 .tab h2{
@@ -478,9 +531,13 @@ background-size: cover;
 }
 /* PRECAUCIONES */
 .precauciones-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.498), #1e2525), url(PRECAUCIONES.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.498), #1e2525), url(PRECACIONES.gif);
   background-size: cover;
   padding: 20px 20px;
   color: white;
@@ -492,21 +549,55 @@ background-size: cover;
   margin: 0;
 }
 .precauciones-con .con-p{
+  width: 500px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px 20px;
+  position: relative;
 }
-.precauciones-con .p{
+.precauciones-con .con-p .t{
+  transition: 1s;
+}
+.precauciones-con .con-p .t.logo{
+  position: relative;
+  z-index: 1;
+  transition: opacity 0.5s ease;
+}
+.precauciones-con .con-p i{
+  font-size: 90px;
+  padding: 10px 10px;
+  border: 5px solid #1e2525;
+  border-radius: 20px;
+  background-color: orangered;
+  color:#1e2525;
+}
+.precauciones-con .con-p:hover .t.logo{
+  opacity: 0;
+}
+.precauciones-con .con-p .t.p{
   text-align: center;
   padding: 20px 20px;
   font-size: 8px;
   cursor: pointer;
-  transition: 2s;
+  transition: 1s;
+  opacity: 0;
+  transform: translateY(0);
+  /* prueba */
+  position: relative;
+  /* top: 20px; 
+  left: 20px; 
+  z-index: 1;
+  opacity: 0;  */
 }
-.precauciones-con .p:hover{
-  transform: scale(2);
+.precauciones-con .con-p:hover .t.p{
+  opacity: 1;
+  scale: 2;
+  transform: translateY(-40px);
   background-color: red;
+  border-radius: 10px;
+  border: 3px solid white;
   padding: 10px 10px;
 }
 .precauciones-con p{
@@ -514,15 +605,357 @@ background-size: cover;
 }
 /* details */
 .details{
+  width: 100%;
+  padding: 10px 10px;
   display: flex;
   flex-direction: column;
   justify-content: left;
-  align-items: start;
+  align-items: left;
+}
+/* .details{
+} */
+.details .tabel{
+  width: 1120px;
+  background-color: blue;
+  height: 100%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap:1px;
+  margin: 9px;
+  margin-left: 60px;
+}
+.details .tabel:hover img{
+  /* filter: blur(10px); */
+  opacity: 0;
+}
+.details .tabel img{
+  width: 250px;
+  height: 250px;
+  padding: 10px 10px;
+  margin-left: -200px;
 }
 .details details{
   padding: 10px 10px;
   background-color: blue;
   margin: 9px;
+  width: 650px;
+  height: auto;
+  border-radius: 10px;
+  transition: 0.5s;
+  transform: translateX(230px);
+  z-index: 1;
+}
+.details details:hover{
+  transform: scale(1.1);
+}
+.details .t summary{
+  display: flex;
+  font-size: 20px;
+  list-style: none;
+}
+.details .t:hover summary{
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.793);
+  color: #1e2525;
+  padding: 9px 9px;
+}
+/*  */
+.details .t.t2:hover summary{
+  border: 1px solid  rgba(242, 126, 126, 0.537);
+  border-radius: 10px;
+  background-color: rgba(242, 126, 126, 0.537);
+  color: #1e2525;
+  padding: 9px 9px;
+}
+.details .t.t3:hover summary{
+  border: 1px solid rgba(0, 149, 255, 0.595);
+  border-radius: 10px;
+  background-color: rgba(0, 149, 255, 0.595);
+  color: white;
+  padding: 9px 9px;
+}
+.details .t.t6:hover summary{
+  border: 1px solid rgba(172, 255, 47, 0.686);
+  border-radius: 10px;
+  background-color: rgba(172, 255, 47, 0.686);
+  color: #1e2525;
+  padding: 9px 9px;
+}
+/*  */
+.details .t i{
+  display: none;
+}
+.details .t:hover i{
+  display: block;
+  padding: 0 5px;
+  font-size: 18px;
+}
+.details .t div{
+  padding: 9px 9px;
+}
+.details .t p{
+  font-size: 15px;
+  text-align: left;
+  padding: 9px 9px;
+  display: none;
+}
+.details .t:hover p{
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.527);
+  color: #1e2525;
+}
+/*  */
+.details .t.t2:hover p{
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(242, 126, 126, 0.537);
+  color: #1e2525;
+}
+.details .t.t3:hover p{
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(0, 149, 255, 0.595);
+  color: white;
+}
+.details .t.t6:hover p{
+  display: block;
+  border-radius: 10px;
+  background-color: rgba(172, 255, 47, 0.686);
+  color: #1e2525;
+}
+/*  */
+/* hh */
+.details .t1:hover{
+  background: url(t1.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.details .t2:hover{
+  background: url(t2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.details .t3:hover{
+  background: url(t3.jpeg);
+  background-size: cover;
+  background-position: 50% 78%;
+}
+.details .t4:hover{
+  background: url(t4.jpeg);
+  background-size: cover;
+  background-position: 50% 28%;
+}
+.details .t5:hover{
+  background: linear-gradient(rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.543)), url(t5.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.details .t6:hover{
+  background: url(t6.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #1e2525;
+}
+.details .t7:hover{
+  background: url(t7.jpeg);
+  background-size: cover;
+  background-position: 50% 30%;
+}
+.details .t8:hover{
+  background: url(t8.jpg);
+  background-size: cover;
+  background-position: 50% 76%;
+}
+/* hh */
+
+.details .tabel.r1{
+  background:linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.541)), url(/LSD/tabblas/t1.jpeg);
+  background-size: cover;
+}
+
+.details .t1{
+  background-color: rgba(9, 9, 73, 0);
+}
+.details .tabel.r2{
+  background:linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.541)), url(/LSD/tabblas/t2.jpeg);
+  background-size: cover;
+}
+.details .t2{
+  background-color: rgba(228, 170, 61, 0);
+}
+.details .tabel.r3{
+  background:linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.541)), url(/LSD/tabblas/t3.jpeg);
+  background-size: cover;
+  background-position: 50% 100%;
+}
+.details .t3{
+  background-color: rgba(0, 128, 0, 0);
+}
+.details .tabel.r4{
+  background:linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.541)), url(/LSD/tabblas/t4.jpeg);
+  background-size: cover;
+}
+.details .t4{
+  background: rgba(128, 128, 128, 0);
+}
+.details .tabel.r5{
+  background:linear-gradient(rgba(255, 255, 255, 0.178), rgba(255, 255, 255, 0.226)),url(/LSD/tabblas/t5.jpeg);
+  background-size: cover;
+}
+.details .t5{
+  background: rgba(0, 0, 0, 0);
+}
+.details .tabel.r6{
+  background:linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.541)), url(/LSD/tabblas/t6.jpeg);
+  background-size: cover;
+}
+.details .t6{
+  background: rgba(255, 255, 255, 0);
+}
+.details .tabel.r7{
+  background:linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.541)), url(/LSD/tabblas/t7.jpeg);
+  background-size: cover;
+}
+.details .t7{
+  background: rgba(128, 128, 128, 0);
+}
+.details .tabel.r8{
+  background:linear-gradient(rgba(0, 0, 0, 0.418), rgba(0, 0, 0, 0.541)), url(/LSD/tabblas/t8.jpg);
+  background-size: cover;
+}
+.details .t8{
+  background: rgba(128, 128, 128, 0);
+}
+.details .t8 a{
+  padding: 0 px;
+  text-decoration: none;
+  color: #1e2525;
+  transition: 0.5s;
+}
+.details .t8 a:hover{
+  background-color: #1e2525;
+  border-radius: 30%;
+  color: white;
+  font-size: 17px;
+  padding: 4px 4px;
+}
+
+/* CONCECUENCIAS */
+.conciencias-con{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 9px;
+  background: linear-gradient(rgba(255, 0, 0, 0.299), rgba(0, 128, 0, 0.27), #1e2525, #1e2525), url(CONCECUENCIAS.gif);
+  background-size: cover;
+  color: white;
+}
+.conciencias-con .h{
+  padding: 10px 10px;
+  width: 1000px;
+  height: 100%;
+  background:orange;
+  transition: 0.5s;
+  color: #1e2525;
+  animation: animate 0.2s ease infinite alternate;
+}
+@keyframes animate {
+  0%{
+    background-color:orange;
+    color: #1e2525;
+  }
+  50%{
+    background-color: yellow;
+    color: grey;
+  }
+  100%{
+    background-color: red;
+    color: white;
+  }
+  
+}
+.conciencias-con .h:hover{
+  transform: scale(1.2);
+}
+.conciencias-con h1{
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 50px;
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 0;
+}
+.conciencias-con i{
+  padding: 0 10px;
+}
+
+.conciencias-con span{
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 26px;
+  margin: 9px;
+  background-color: rgba(255, 0, 0, 0.504);
+  animation: we 3s ease infinite alternate;
+}
+@keyframes we {
+  0%{
+    background-color: rgba(255, 0, 0, 0.504);
+  }
+  50%{
+    background-color: rgba(255, 68, 0, 0.501);
+  }
+  80%{
+    background-color: rgba(248, 93, 36, 0.475);
+  }
+}
+.conciencias-con p{
+  text-align: center;
+}
+.conciencias-con .p{
+  padding: 10px 10px;
+  transform: translateY(0px);
+  transition: 0.8s;
+}
+.conciencias-con .p:hover{
+  transform: translateY(-60px);
+  scale: 1.2;
+  background: linear-gradient(rgba(0, 0, 0, 0.303), rgba(0, 0, 0, 0.349)), url(/LSD/concen-gif/pre-p.gif);
+  background-size: cover;
+  background-position: center;
+}
+.conciencias-con .concen-d{
+  width: 1000px;
+  background: #1e2525;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap:15px;
+  padding: 14px 14px;
+}
+.conciencias-con .concen-d h2{
+  text-align: center;
+  font-family: 26px;
+}
+.conciencias-con .concen-d .tan{
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.conciencias-con .concen-d .tan:hover{
+  scale: 1.3;
+}
+.conciencias-con .concen-d .tan.hppd{
+  background: linear-gradient(rgba(0, 0, 0, 0.498), rgba(0, 0, 0, 0.617)), url(/LSD/concen-gif/HPPD.gif);
+  background-size: cover;
+  background-position: center;
+}
+.conciencias-con .concen-d .tan.psico{
+  background: linear-gradient( rgba(158, 155, 155, 0.153), rgba(144, 142, 142, 0.221)), url(/LSD/concen-gif/ezquis.gif);
+  background-position: center;
+  background-size: cover;
 }
 /* footer */
 footer {
