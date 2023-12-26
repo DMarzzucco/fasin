@@ -13,7 +13,7 @@ $conten_mess .= 'Mensaje ' . $mensaje . ".\r\n";
 $conten_mess .= 'Enviado el ' . date('d/m/Y', time());
 
 // destino y asunto
-$destino = "ponercorreo"; 
+$destino = "Elmundodedroguincci@hotmail.com"; 
 // poner correo elect ++
 $asunto = "Contacto desde el sitio web";
 
