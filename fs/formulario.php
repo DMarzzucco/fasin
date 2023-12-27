@@ -18,7 +18,7 @@ $destino = "Elmundodedroguincci@hotmail.com";
 $asunto = "Contacto desde el sitio web";
 
 // header
-$headers = "From: $emial\r\n";
+$headers = "From: $email\r\n";
 $headers .= "Reply-To: $email\r\n";
 $headers .= "Content-Type: text/plain; charset=utf-8\r\n";
 

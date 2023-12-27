@@ -130,7 +130,36 @@ width: 30px;
 height: 30px;
 padding: 10px 10px;
 }
-
+/*  */
+.bt{
+  padding: 10px 1px;
+}
+.bt .btK{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  transition: 0.4s;
+}
+.bt .btK a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.bt .btK p{
+  display: inline;
+  position: relative;
+  margin: 0;
+  font-size: 20px;
+}
+.bt .btK i{
+  font-size: 18px;
+  padding: 10px 10px;
+}
+.bt .btK:hover{
+  background-color: rgb(150, 62, 62);
+}
 /* inicio */
 .inicio {
 background: linear-gradient(0deg, rgba(34, 192, 195, 0.445) 0%, rgba(49, 120, 49, 0.63) ), url(pica.gif);
@@ -400,6 +429,14 @@ padding: 20px 20px;
 }
 .formulario .enles img:hover{
   transform: scale(1.3);
+}
+/* conf */
+.conf{
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#181818b0,#181818b0),url(pica.gif);
+  background-position: center;
+  background-size: cover;
 }
 /* footer */
 footer {
