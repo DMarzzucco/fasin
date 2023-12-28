@@ -160,7 +160,12 @@ html, body{
   text-decoration: none;
   color: white;
   font-size: 30px;
+  transition: 0.5s;
 }
+.comp .enl a:hover{
+  font-size: 35px;
+}
+
 
 /* indiividual*/
 .ind{
@@ -210,10 +215,21 @@ html, body{
   padding: 3px 3px;
   color: #1e2525;
 }
+.ind .enl{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+}
 .ind .enl a{
   text-decoration: none;
   color: white;
   font-size: 30px;
+  transition: 0.5s;
+}
+.ind .enl a:hover{
+  font-size: 35px;
 }
 
 /* footer */
