@@ -14,3 +14,9 @@ function openTab(tabName) {
     });
     document.getElementById(tabName).classList.add('active');
 }
+// funcion de redireccion 
+function redireccionar(url) {
+    if (url && url !== '#') {
+        window.location.href = url;
+    }
+}

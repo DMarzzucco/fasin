@@ -46,26 +46,33 @@
     <footer>
 
     <!-- enlaces -->
-        <div class="enlaces">
-                <div class="filas">
-                   <a href="#" onclick="redireccionar()">Source</a>
-                   <a href="#">||</a>
-                   <a href="#" onclick="redireccionar()">Mazzei</a>
-                   <a href="#">||</a>
-                   <a href="#" onclick="redireccionar()">SysteMarzz</a>
-                   <a href="#">||</a>
-                   <a href="formulario.html">Contactanos</a>
-                </div>
-            </div>
-
-        <!-- derechode autor -->
-        <div class="copia-deauto">
-            <small>&copy;2023 <b>Mazzei & SysteMarzz</b> - Todos los Derechos Reservados.</small>
+    <div class="enlaces">
+        <div class="filas">
+           <a href="#" onclick="redireccionar('https://github.com/DMarzzucco/fasin.git')">Source</a>
+           <a href="#">||</a>
+           <a href="#" onclick="redireccionar('https://www.linkedin.com/in/franco-mazzei-813763267/')">Mazzei</a>
+           <a href="#">||</a>
+           <a href="#" onclick="redireccionar('https://systemarzz77.000webhostapp.com/')">SysteMarzz</a>
+           <a href="#">||</a>
+           <a href="formulario.html">Contactanos</a>
         </div>
-    </footer>
+    </div>
 
-    <script src="script.js"></script>
-    </section>
+<!-- derechode autor -->
+<div class="copia-deauto">
+    <small>&copy;2023 <b>Mazzei & SysteMarzz</b> - Todos los Derechos Reservados.</small>
+</div>
+</footer>
+
+<script>
+// funcion de redireccion 
+ function redireccionar(url) {
+    if (url && url !== '#') {
+        window.location.href = url;
+    }
+}
+</script>
+</section>
 
 </body>
 </html>

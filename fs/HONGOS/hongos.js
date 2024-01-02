@@ -46,3 +46,9 @@ function hideShow(){
     //redireccion
     window.location.href = window.location.href.split('#')[0] + '#ifect';
 };
+//redir
+function redireccionar(url) {
+    if (url && url !== '#') {
+        window.location.href = url;
+    }
+}

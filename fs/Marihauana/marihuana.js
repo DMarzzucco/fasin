@@ -27,3 +27,9 @@ function openModal() {
     carousel.style.setProperty("--position", currentPosition);
   }
 
+ // funcion de redireccion 
+ function redireccionar(url) {
+  if (url && url !== '#') {
+      window.location.href = url;
+  }
+}
