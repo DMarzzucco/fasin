@@ -60,7 +60,6 @@ h1 {
   background-color:#b2ff4d84;
   color: #1e2525;
 }
-
 /* container */
 .prueba-en-con{
   display: flex;
@@ -103,6 +102,7 @@ h1 {
   padding: 40px 50px;
   font-size: 50px;
 }
+
 /* section*/
 .DMT-expli{
   width: 100%;
@@ -128,7 +128,6 @@ h1 {
 .DMT-expli .explicacion .origen {
   grid-column: span 2; 
 }
-
 .DMT-expli .imagen img {
   width: 500px;
   height: 350px;
@@ -401,3 +400,67 @@ footer .copia-deauto{
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@media screen  and (max-width:700px) {
+  .DMT-expli {
+    background-size: contain;
+  }
+  .DMT-Fondo .enlace a{
+    display: none;
+  }
+  .DMT-Fondo {
+    background-size: contain;
+  }
+  .DMT-expli .explicacion {
+    display: block;
+  }
+  .DMT-expli .imagen img {
+    width: 380px;
+    height: 300px;
+  }
+  .Dmt .DMT-Fondo .titulo h1{
+    padding: 20px 30px
+  }
+
+  /*navegacion*/
+  .prueba-conNav .nav {
+    display: none;
+  }
+
+  #aside-respon.active {
+    display: block; 
+ }
+
+  #hideShow-res {
+    display: block; 
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #B2FF4D; 
+  }
+  #aside-respon {
+    text-align: right;
+    display: none; 
+    background: linear-gradient(#1e2525b2, #1e252599), url(universo11.gif);
+    background-size: contain;
+    position: absolute;
+    top: 88px; 
+    right: 0;
+    width: 35%;
+    height: 40%;
+ }
+ #aside-respon a {
+  color: #B2FF4D;
+  text-decoration: none;
+}
+  #aside-respon.desplegar {
+    display: block; 
+ }
+ }
+ @media only screen and (min-width: 700px) {
+  .prueba-conNav-responsive {
+      display: none;
+  }
+ }
