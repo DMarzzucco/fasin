@@ -206,6 +206,10 @@ margin: 9px;
 .inicio .enlaceInci {
 padding: 20px 20px;
 }
+.inicio .enlaceInci .respon{
+  display: 
+  none;
+}
 .inicio .enlaceInci img{
 text-decoration: none;
 color: aliceblue;
@@ -513,6 +517,17 @@ font-family: Arial, Helvetica, sans-serif;
     width:25px ;
     height:25px ;
   }
+  .inicio .enlaceInci .no-respon{
+    display: none;
+  }
+  .inicio .enlaceInci .respon{
+    display: block;
+  }
+  .inicio .enlaceInci img{
+    clip-path: none;
+    transform: none;
+    filter: invert(80%);
+  }
   /* formulario */
   .formulario{
     height: 100%;
@@ -531,7 +546,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 100%;
   }
   .formulario .form .wsl input{
-    width: 100%;
+    width: 400px;
     margin: 9px;
     border-radius: 10px;
     padding: 9px 9px;

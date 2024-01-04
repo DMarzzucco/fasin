@@ -155,7 +155,7 @@ html, body{
   font-size: 70px;
 }
 .comp .filas{
-  border: 1px solid white;
+  border: none;
   width: 800px;
   font-size: 20px;
 }
@@ -221,7 +221,7 @@ html, body{
   font-size: 70px;
 }
 .ind .filas{
-  border: 1px solid white;
+  
   width: 800px;
   font-size: 20px;
 }
@@ -304,6 +304,15 @@ footer {
   }
   /* nedua */
   @media screen  and (max-width:700px){
+    .bt .qb{
+      margin: 10px;
+    }
+    .bt .qb.bt1{
+      width: 350px;
+    }
+    .bt .qb.bt2{
+      width: 350px;
+    }
     .badTrip {
       width: 100%;
       height: 100vh;
@@ -341,6 +350,22 @@ footer {
       display: flex;
       flex-direction: column;
     }
+    /* comp */
+    .comp{
+      padding: 20px 0px;
+    }
+    .comp .nk h1{
+      font-size: 30px;
+    }
+    .comp .nk p{
+      width: 400px;
+    }
+    .comp .filas{
+      width: 100%;
+    }
+    .comp .filas ul{
+      padding: 0px;
+    }
     /* footer */
     footer .box{
       display: none;
@@ -357,7 +382,23 @@ footer {
     footer .copia-deauto{
       font-size: 10px;
     }
-  
+    
+    /*Ind*/
+    .ind .filas {
+      width: 400px;
+    }
+    .ind h1 {
+      font-size: 40px;
+    }
+    .ind .nk p {
+      width: 400px;
+    }
+    .ind .filas {
+      width: 90%;
+    }
+    .ind .enl a{
+      font-size: 20px;
+    }
   }
   
   
