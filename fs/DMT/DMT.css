@@ -455,8 +455,10 @@ footer .copia-deauto{
  }
  /*efectos*/
  @media screen  and (max-width:700px) {
-  .dmt-con.efectos {    /*Recorda ponerle esto a las clases de los titulos pa que no se caguen y en el html agregale una clase tambien*/
-    height: 100%;
+  .dmt-con.efectos,
+  .dmt-con.consumo,
+  .dmt-con.precau,
+  .dmt-con.consecuen {  
     display: block;
   }
   .section-efectos,
@@ -467,9 +469,6 @@ footer .copia-deauto{
     text-align: left;
   }
   /*Consumo*/
-  .dmt-con.consumo{
-    display: block;
-  }
    .dmt-con p {
     color: #fff;
     margin: 0;
@@ -481,6 +480,45 @@ footer .copia-deauto{
     height: auto; 
   }
   /*Precauciones*/
+  .dmt-con h4 {
+    width: 80%;
+  }
+  .section-precauciones,
+  .section-precauciones2 {
+    background-size: contain;
+    margin: 0 auto; 
+  }
+  /*precauciones mal viaje*/
+  .section-malviaje-container {
+    display: none;
+  }
+  .accordion {
+    max-width: 600px; 
+    margin: auto;
+  }
+   .accordion-item {
+    margin-bottom: 10px;
+  }
+   .accordion-item-title {
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+  }
+   .accordion-item-content {
+    display: none;
+    padding: 10px;
+    border: 1px solid  #B2FF4D;
+  }
+   .accordion-item-title:focus + .accordion-item-content,
+   .accordion-item-title:hover + .accordion-item-content {
+    display: block;
+  }
+   input[type="checkbox"]:checked + .accordion-item-title + .accordion-item-content {
+    display: block;
+  }
+}
+  @media only screen and (min-width: 700px) {
+   .s-c-c.accordion {
+      display: none;
+  }
  }
- 
-
