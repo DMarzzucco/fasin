@@ -387,7 +387,7 @@ footer .copia-deauto{
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+/*Responsive*/
 @media screen  and (max-width:700px) {
   .DMT-expli {
     background-size: contain;
@@ -402,11 +402,15 @@ footer .copia-deauto{
     display: block;
   }
   .DMT-expli .imagen img {
-    width: 380px;
-    height: 300px;
+    width: 100%;
+    height: auto;
   }
   .Dmt .DMT-Fondo .titulo h1{
-    padding: 20px 30px
+    padding: 20px 30px;
+  }
+  .DMT-Fondo .logo img {
+    position: relative;
+    top: 10px;
   }
 
   /*navegacion*/
