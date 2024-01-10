@@ -189,7 +189,7 @@ main div::selection {
 }
 .Marihuana-expli .imagen-diferencias img {
   width: 800px;
-  height: 450;
+  height: 450px;
 }
 /*final de section imagenes*/
 
@@ -654,6 +654,59 @@ div.item:nth-of-type(7) {
   margin: 0;
 }
 
+/* nav modal */
+@media screen and (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+  #aside-respon {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para simular un modal */
+    z-index: 1000; /* Asegura que esté en la parte superior */
+    color: #B2FF4D;
+    text-align: center;
+    padding-top: 50px; /* Ajusta el espacio superior según tus necesidades */
+  }
+
+  #aside-respon a {
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #B2FF4D;
+  }
+
+  #hideShow-res {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #B2FF4D;
+    z-index: 1001; /* Asegura que esté encima del fondo oscuro */
+  }
+}
+@media only screen and (min-width: 700px) {
+  .prueba-conNav-responsive {
+      display: none;
+  }
+ }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -675,13 +728,10 @@ footer {
     grid-gap: 50px;
     padding: 20px 20px;
   }
-  
-  
   footer img{
     width: 200px;
     height: 200px;
   }
-  
   footer .enlaces{
     margin: 0;
     background-color:#1e2525;
@@ -704,6 +754,97 @@ footer {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
   }
+  /*Responsive*/
+  @media  screen and (max-width: 700px) {
+    .Marihuana-Fondo .enlace a{
+      display: none;
+    }
+    .Marihuana-Fondo .logo img {
+      position: relative;
+      top: 10px;
+    }
+    .Marihuana .Marihuana-Fondo .titulo h1 {
+      position: relative;
+      top: 40px;
+      padding: 20px 30px;
+    }
+    /*fondo inicio*/
+    .Marihuana-expli .explicacion{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .Marihuana-expli .imagen-Homero {
+      display: none;
+    }
+    .Marihuana-expli .imagen-Historia {
+      display: none;
+    }
+    .Marihuana-expli .explicacion img,
+    .Marihuana-expli .imagen-Historia-respon img,
+    .Marihuana-expli .imagen-Homero-respon img {
+      max-width: 100%;
+      height: auto;
+    } 
+    .imagen-Homero-respon {
+      height: 300px;
+    }
+    .imagen-Historia-respon {
+      height: 400px;
+    }
+    .Marihuana-expli .imagen-diferencias {
+      height: 220px;
+    }
+    .Marihuana-expli .explicacion.contexto {
+      padding: 20px;
+    }
+    .Marihuana-expli h2 {
+      text-align: center;
+    }
+    .Marihuana-expli .container-diferencias {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+    }
+    .sativa,
+    .indica {
+      width: 45%;
+      padding: 15px;
+      border: 10px double #fff;
+      border-radius: 20px;
+      box-sizing: border-box;
+      text-align: left;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    .imagen-Homero-respon {
+       display: none;
+   }
+    .imagen-Historia-respon {
+    display: none;
+   }
+  }
+  @media only screen and (max-width: 320px) {
+    .Marihuana-expli .explicacion {
+      padding: 10px; 
+    }
+    .Marihuana-expli .imagen-Homero-respon,
+    .Marihuana-expli .imagen-Historia-respon,
+    .Marihuana-expli .imagen-diferencias {
+      height: auto; 
+    }
+    .Marihuana-expli .container-diferencias {
+      flex-direction: column; 
+    }
+    .sativa,
+    .indica {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+  }
+  @media  screen and (max-width: 700px) {
   
-  
+  }
+
+
   

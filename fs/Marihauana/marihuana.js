@@ -33,3 +33,9 @@ function openModal() {
       window.location.href = url;
   }
 }
+
+// nav responsive
+document.getElementById("hideShow-res").addEventListener("click", function () {
+  var asideRespon = document.getElementById("aside-respon");
+  asideRespon.style.display = (asideRespon.style.display === "none" || asideRespon.style.display === "") ? "block" : "none";
+});
