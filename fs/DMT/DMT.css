@@ -414,7 +414,7 @@ footer .copia-deauto{
   }
 
   /*navegacion*/
-  .prueba-conNav .nav {
+  /* .prueba-conNav .nav {
     display: none;
   }
 
@@ -450,13 +450,64 @@ footer .copia-deauto{
 }
   #aside-respon.desplegar {
     display: block; 
+ } */
  }
- }
- @media only screen and (min-width: 700px) {
+ /*nav modal*/
+ @media screen and (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+  #aside-respon {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro para simular un modal */
+    z-index: 1000; /* Asegura que esté en la parte superior */
+    color: #B2FF4D;
+    text-align: center;
+    padding-top: 50px; /* Ajusta el espacio superior según tus necesidades */
+  }
+
+  #aside-respon a {
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #B2FF4D;
+  }
+
+  #hideShow-res {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #B2FF4D;
+    z-index: 1001; /* Asegura que esté encima del fondo oscuro */
+  }
+}
+@media only screen and (min-width: 700px) {
   .prueba-conNav-responsive {
       display: none;
   }
  }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
  /*efectos*/
  @media screen  and (max-width:700px) {
   .dmt-con.efectos,

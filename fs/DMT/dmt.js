@@ -1,10 +1,8 @@
-// Navegación responsive
-const $hideShow = document.getElementById("hideShow-res");
-const $aside = document.getElementById("aside-respon");
-
-$hideShow.addEventListener("click", () => {
-    $aside.classList.toggle("desplegar");
-});
+// nav responsive
+document.getElementById("hideShow-res").addEventListener("click", function () {
+    var asideRespon = document.getElementById("aside-respon");
+    asideRespon.style.display = (asideRespon.style.display === "none" || asideRespon.style.display === "") ? "block" : "none";
+  });
 
 //acordeón responsive precauciones
 document.addEventListener('DOMContentLoaded', function () {
