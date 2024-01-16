@@ -584,7 +584,7 @@ main#carousel {
   --items: 5;
   --middle: 3;
   --position: 1;
-  pointer-events: auto; /* Habilitar eventos de puntero en el carousel */
+  pointer-events: auto; /* habilitar el puntero en el carousel */
 }
 
 div.item {
@@ -679,7 +679,7 @@ footer {
   }
   /*Responsive*/
   /*parte inicial, enlace en logo*/
-  @media  screen and (max-width: 700px) {
+  @media  screen and (max-width: 1000px) {
     .Marihuana-Fondo .enlace a{
       display: none;
     }
@@ -713,9 +713,6 @@ footer {
     .imagen-Homero-respon {
       height: 300px;
     }
-    .imagen-Historia-respon {
-      height: 400px;
-    }
     .Marihuana-expli .imagen-diferencias {
       height: auto;
     }
@@ -740,7 +737,7 @@ footer {
       text-align: left;
     }
   }
-  @media only screen and (min-width: 700px) {
+  @media only screen and (min-width: 1000px) {
     .imagen-Homero-respon {
        display: none;
    }
@@ -982,16 +979,26 @@ footer {
   }
  }
  /*Consecuencias*/
- @media  screen and (max-width: 700px) {
-
- }
-
-
- 
- @media only screen and (min-width: 700px) {
-
- }
-
-
-
-
+ @media screen and (max-width: 700px) {
+  .consecuencias {
+    grid-template-columns: 1fr;
+  }
+  div.item {
+    width: 300px;
+    height: 400px; 
+  }
+  div.item:nth-of-type(1) {
+    overflow: auto;
+  }
+  div.item:nth-of-type(7) {
+    overflow: auto;
+  }
+  div.item:nth-of-type(1)::-webkit-scrollbar,
+  div.item:nth-of-type(7)::-webkit-scrollbar {
+    width: 2px;
+  }
+  div.item:nth-of-type(1)::-webkit-scrollbar-thumb,
+  div.item:nth-of-type(7)::-webkit-scrollbar-thumb{
+    background-color: #B2FF4D; /* Cambia esto al color que desees */
+  }
+}
