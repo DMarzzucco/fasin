@@ -31,13 +31,25 @@
                 <img src="/nav.png" alt="">
             </a>
         </div>
-        <div class="nav">
-            <!-- en los enlaces poner los de la carpeta -->
-            <a href="1-L-consumo.html">Consumo</a>
-            <a href="2-L-efectos.html">Efectos</a>
-            <a href="3-L-precauciones.html">Precauciones</a>
-            <a href="4-L-concecuencias.html">Consecuencias</a>
+        
+        <nav id="nav">
+            <ul class="nav-list">
+                <li> <a href="1-L-consumo.html">Consumo</a>
+                </li>
+                <li> <a href="2-L-efectos.html">Efectos</a>
+                </li>
+                <li> <a href="3-L-precauciones.html">Precauciones</a>
+                </li>
+                <li><a href="4-L-concecuencias.html">Consecuencias</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!--  -->
+        <div class="nav-responsive" onclick="showAndHideM()">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
         </div>
+
     </header>
 
     <!-- section -->
@@ -48,7 +60,80 @@
             pero aun así existen otras dos maneras más de consumir esta sustancia.
         </p>
         <!-- formas de consumo -->
-        <div class="consumo">
+        <div class="bl-N">
+            <div class="consumo">
+                <!-- blotters -->
+                <div class="blotters">
+
+                    <div class="card">
+                        <div class="face face1 blotters">
+                            <div class="contkar">
+                                <h2>Blotters</h2>
+                            </div>
+                        </div>
+                        <div class="face face2 blotters">
+                            <div class="contkar">
+                                <p>Este es el método más común de consumir LSD. Los Blotters (“papel absorbente”)<br>
+                                    son pequeños cuadrados de papel absorbente los cuales contienen una dosis medida<br>
+                                    de tal sustancia. Son conocidos también por tener impresos algún diseño o
+                                    patrón,<br>
+                                    el más famoso es el de la bicicleta de Hofmann.<br>
+                                    Su forma de consumir es colocarlo en la lengua y dejar que se diluya o tragarlo<br>
+                                    directamente.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- liquid -->
+                <div class="liquid">
+
+                    <div class="card">
+                        <div class="face face1 liquid">
+                            <div class="contkar">
+                                <h2>Liquido</h2>
+                            </div>
+                        </div>
+                        <div class="face face2 liquid">
+                            <div class="contkar">
+                                <p>El LSD también puede encontrarse en forma líquida. En este caso, una cantidad<br>
+                                    medida de líquido, la cual lo contiene. Se puede aplicar directamente en la<br>
+                                    lengua o en algún objeto de consumo, el cual sea absorbente, como pueden ser
+                                    gomitas,<br>
+                                    masa o chicles. También se puede aplicar en bebidas y en cigarros.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- gel -->
+                <div class="gel">
+
+                    <div class="card">
+                        <div class="face face1 gel">
+                            <div class="contkar">
+                                <h2>Capsula de Gelatina</h2>
+                            </div>
+                        </div>
+                        <div class="face face2 gel">
+                            <div class="contkar">
+                                <p>Otra forma menos común de consumir este estupefaciente es en cápsulas de gelatina<br>
+                                    que contiene una dosis de LSD. En este caso, la cápsula se traga y la sustancia
+                                    es<br>
+                                    absorbida por el sistema digestivo.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <!-- respon -->
+        <div class="res-cons" id="carousel">
             <!-- blotters -->
             <div class="blotters">
 
@@ -113,7 +198,9 @@
 
                 </div>
             </div>
-
+            <button onclick="prevSlide()">Anterior</button>
+            <button onclick="nextSlide()">Siguiente</button>
+        </div>
     </section>
     <!-- footer -->
     <footer>

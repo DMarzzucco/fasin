@@ -1,23 +1,41 @@
-function openTab(tabName){
-    var tablas=document.querySelectorAll('.tab');
-    tablas.forEach(function(tab){
+// respon
+let menuVisible = false;
+function showAndHideM() {
+    if (menuVisible) {
+        document.getElementById("nav").classList = "";
+        menuVisible = false;
+    } else {
+        document.getElementById("nav").classList = "responsive";
+        menuVisible = true;
+    }
+}
+function selecionar() {
+    document.getElementById("nav").classList = "";
+    menuVisible = false;
+}
+
+
+// tab
+function openTab(tabName) {
+    var tablas = document.querySelectorAll('.tab');
+    tablas.forEach(function (tab) {
         tab.classList.remove('active', 'escala-up');
     });
 
-    document.getElementById(tabName).classList.add('active', 'escala-up');   
+    document.getElementById(tabName).classList.add('active', 'escala-up');
 }
 // precau
 var titulos = document.querySelectorAll('.titulos');
 
 // Iterar
-titulos.forEach(function(titulo) {
+titulos.forEach(function (titulo) {
     //  numero del título - del contenido
     var num = titulo.id.replace('titulo', ''); // número de id
 
     //  event  click
-    titulo.addEventListener('click', function() {
+    titulo.addEventListener('click', function () {
         var contenido = document.getElementById('conten' + num);
-        
+
         // animatk
         if (contenido.style.display === 'none' || contenido.style.display === '') {
             contenido.style.display = 'block';
@@ -26,24 +44,24 @@ titulos.forEach(function(titulo) {
             contenido.style.display = 'none';
         }
     });
-    
+
     // event hide
     var contenido = document.getElementById('conten' + num);
-    contenido.addEventListener('click', function(event) {
+    contenido.addEventListener('click', function (event) {
         // none title
         event.stopPropagation();
 
         // Oculta el contenido
         contenido.style.display = 'none';
-        contenido.classList.remove='escala-up'
+        contenido.classList.remove = 'escala-up'
     });
 });
 // h & s
-function hideShow(){
-    var ifectSection= document.querySelector('.ifect');
+function hideShow() {
+    var ifectSection = document.querySelector('.ifect');
     // block
-    ifectSection.style.display ='block';
-    //redireccion
+    ifectSection.style.display = 'block';
+    //redirec
     window.location.href = window.location.href.split('#')[0] + '#ifect';
 };
 //redir
@@ -52,3 +70,23 @@ function redireccionar(url) {
         window.location.href = url;
     }
 }
+
+
+// ***botns
+let currentDiv = 1; // actual-dv
+
+function showDiv(n) {
+    const divs = document.querySelectorAll('.kart');
+    if (n > divs.length) { currentDiv = 1 }
+    if (n < 1) { currentDiv = divs.length }
+
+    divs.forEach(div => div.style.display = 'none');
+    divs[currentDiv - 1].style.display = 'block';
+}
+
+function changeDiv(n) {
+    showDiv(currentDiv += n);
+}
+
+// first-page
+showDiv(currentDiv);
