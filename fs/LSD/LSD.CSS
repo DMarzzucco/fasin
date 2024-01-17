@@ -102,14 +102,14 @@ nav {
 }
 
 .LSD-en-con .cabezal-LSD .titulo {
-  margin-top: 200px;
+  margin-top: 100px;
   color: #fff;
 }
 
 .LSD-en-con .cabezal-LSD .titulo h1 {
   margin: 0;
-  padding: 40px 50px;
-  font-size: 50px;
+  padding: 40px 10px;
+  font-size: 45px;
 }
 
 .LSD-en-con .cabezal-LSD .titulo img {
@@ -263,9 +263,11 @@ nav {
   margin: 0;
   color: white;
 }
-.res-cons{
+
+.res-cons {
   display: none;
 }
+
 .consumo-con .consumo {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -414,8 +416,13 @@ nav {
 .efectos-con {
   background: linear-gradient(rgba(0, 0, 0, 0.45), #1e2525), url(EFECTOS.gif);
   background-size: cover;
+  background-position: 50% 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .efectos-con h1 {
@@ -430,70 +437,17 @@ nav {
   margin: 0;
   padding: 10px 10px;
   font-size: 20px;
-  color: white;
+  background-color: white;
+  color: #1e2525;
 }
 
 .efectos-con .p1 {
-  background-color: rgb(50, 8, 136);
-  text-align: right;
-  width: 600px;
-  margin-left: 500px;
-  transition: 1s;
-  transform: translateX(200px);
-  animation: cl 2s ease infinite alternate;
+  width: 400px;
 }
 
-@keyframes cl {
-  0% {
-    background-color: rgba(51, 8, 136, 0.472);
-  }
-
-  50% {
-    background-color: rgba(255, 0, 0, 0.452);
-  }
-
-  100% {
-    background-color: rgba(0, 128, 0, 0.437);
-  }
-}
-
-.efectos-con .p1:hover {
-  transform: translateX(0);
-}
-
-.efectos-con .p2 {
-  background-color: green;
-  width: 600px;
-  margin-left: 200px;
-  transition: 1s;
-  transform: translateX(100px);
-  animation: dk 2s ease infinite alternate;
-}
-
-@keyframes dk {
-  0% {
-    background-color: rgba(0, 128, 0, 0.459);
-  }
-
-  50% {
-    background-color: rgba(255, 0, 0, 0.452);
-  }
-
-  100% {
-    background-color: rgba(0, 0, 255, 0.503);
-  }
-}
-
-.efectos-con .p2:hover {
-  transform: translateX(0);
-}
-
-
-.efectos-con .span {
-  color: white;
-  padding: 20px 20px;
-  text-align: center;
-  font-size: 20px;
+/* tb */
+.kqp {
+  background-color: #1e2525;
 }
 
 /* bottons */
@@ -557,7 +511,7 @@ nav {
 .tab {
   display: none;
   width: 600px;
-  height: 50vh;
+  height: auto;
   background-color: red;
   border-radius: 20px;
   padding: 20px 20px;
@@ -567,6 +521,7 @@ nav {
 .tab.aps {
   background: linear-gradient(rgba(0, 0, 0, 0.532), rgba(128, 128, 128, 0.509)), url(Alteración\ en\ la\ Percepción\ Sensorial.jpg);
   background-size: cover;
+  background-position: 50% 50%;
   color: white;
 
 }
@@ -574,18 +529,21 @@ nav {
 .tab.dte {
   background: linear-gradient(rgba(0, 0, 0, 0.532), rgba(128, 128, 128, 0.509)), url(Distorsión\ del\ Tiempo\ y\ Espacio.jpg);
   background-size: cover;
+  background-position: 50% 50%;
   color: white;
 }
 
 .tab.eea {
   background: linear-gradient(rgba(0, 0, 0, 0.532), rgba(128, 128, 128, 0.509)), url(Elevación\ del\ Estado\ de\ Ánimo.jpg);
   background-size: cover;
+  background-position: 50% 50%;
   color: white;
 }
 
 .tab.cpc {
   background: linear-gradient(rgba(0, 0, 0, 0.532), rgba(128, 128, 128, 0.509)), url(Cambio\ en\ el\ Pensamiento\ y\ la\ Cognición.jpg);
   background-size: cover;
+  background-position: 50% 50%;
   color: white;
 }
 
@@ -713,6 +671,19 @@ nav {
 
 .precauciones-con p {
   margin: 0;
+}
+
+/*  */
+.res-p {
+  display: none;
+  padding: 9px 9px;
+}
+
+.res-p p {
+  background: white;
+  width: 300px;
+  padding: 9px 9px;
+  color: #1e2525;
 }
 
 /* details */
@@ -1010,6 +981,13 @@ nav {
   color: white;
 }
 
+.conciencias-con .mir {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .conciencias-con .h {
   padding: 10px 10px;
   width: 1000px;
@@ -1095,6 +1073,12 @@ nav {
   background-size: cover;
   background-position: center;
 }
+
+.conciencias-con .res-mir {
+  display: none;
+}
+
+/*  */
 
 .conciencias-con .concen-d {
   width: 1000px;
@@ -1250,7 +1234,7 @@ footer .copia-deauto {
   }
 
   .con-entrada-LSD .explicacion p {
-    width: 400px;
+    width: 300px;
     padding: 16px;
     margin: 0;
   }
@@ -1292,7 +1276,7 @@ footer .copia-deauto {
 
   /* consumo */
   .consumo-con {
-    height: auto;
+    height: 100%;
     background-position: center;
 
   }
@@ -1307,80 +1291,159 @@ footer .copia-deauto {
     display: block;
   }
 
-  .consumo-con .card {
-    width: 100%;
+  /*  */
+  .res-cons .card {
     display: flex;
     flex-direction: column;
-  }
-
-  .consumo-con .card .face {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+
   }
 
-  .consumo-con .card .face.face1 {
-    background-color: #ddd;
+  .res-cons .card .face {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    margin: 9px;
   }
 
-  .consumo-con .card .face.face2 {
-    background-color: #eee;
-    display: none;
+  .res-cons .card .face h2 {
+    color: blue;
+    font-size: 50px;
+    background-color: pink;
   }
 
-  .consumo-con .card .contkar {
-    padding: 20px;
+  /*  */
+  .res-cons .card .face.blotters {
+    background: url(blooters.png);
+    background-position: center;
+    background-size: cover;
   }
 
-  .consumo-con .card button {
-    margin-top: 10px;
+  .res-cons .card .face.liquid {
+    background: url(liquid1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .res-cons .card .face.gel {
+    background: url(gel1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  /*  */
+  /*  */
+  .res-cons .card .face.face2.blotters {
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)), url(blooters.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .res-cons .card .face.face2.liquid {
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)), url(liquid1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .res-cons .card .face.face2.gel {
+    background: linear-gradient(rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.678)), url(gel1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  /*  */
+
+  .res-cons .card .face.face2 {
+    transform: translateY(0px);
+    background-color: red;
+    opacity: 0;
+    position: absolute;
+    width: auto;
+  }
+
+  .res-cons .card .face.face2:hover {
+    opacity: 1;
   }
 
   /*efecto  */
   /* precaucion*/
-  .precauciones-con h1{
+  .precauciones-con h1 {
     font-size: 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .precauciones-con .con-p .t{
-    z-index: 0;
-    position: relative;
+
+  .precauciones-con .con-p .t {
+    display: none;
   }
-  .precauciones-con .con-p .t.p{
-    display: flex;  
-    justify-content: center;
-    align-items: center;
-    padding: 9px 9px;
-    margin-right: 34px;
+
+  .res-p {
+    display: block;
   }
-  .precauciones-con .con-p .t.p p{
-    width: 200px;
-  }
+
   .details .tabel {
     width: 400px;
     margin: 8px;
   }
-  .details .tabel img{
+
+  .details .tabel img {
     margin-left: -260px;
     width: 200px;
     height: 200px;
   }
+
   .details details {
     width: 400px;
     margin-left: 30px;
     transform: none;
     margin: 0;
   }
+
   .details details:hover {
     transform: none;
   }
+
   /* concecuencia */
+  .conciencias-con .mir {
+    display: none;
+  }
+
+  .conciencias-con .res-mir {
+    display: block;
+  }
+
+  .conciencias-con .res-mir h1 {
+    font-size: 30px;
+  }
+
+  .conciencias-con .res-mir .qs {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.658);
+    color: #1e2525;
+  }
+
+  /*  */
+  .conciencias-con .concen-d {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .conciencias-con .concen-d .tan {
+    width: 360px;
+  }
+
+  .conciencias-con .concen-d .tan:hover {
+    scale: none;
+  }
 
   /* footer */
   footer .box {
