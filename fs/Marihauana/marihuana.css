@@ -810,6 +810,9 @@ footer {
 /*responsive de las 5 pestañas*/
 /*Consumo*/
   @media  screen and (max-width: 1000px) {
+     .Marihuana-con.Consum {
+      height: 100vh;
+     }
      .Marihuana-con .container-consumo {
       display: none;
      }
