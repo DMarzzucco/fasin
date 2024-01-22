@@ -77,7 +77,7 @@ nav {
   margin: 0;
   padding: 10px 10px;
   background-color: #1e2525;
-  background: linear-gradient(rgba(0, 0, 0, 0.541), black), url(/LSD/NMBOMES/NMBOMES-BACK.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.541), black), url(NMBOMES-BACK.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -167,7 +167,7 @@ nav {
   align-items: center;
   margin: 0;
   padding: 10px 10px;
-  background: linear-gradient(rgb(0, 0, 0), #1e252548, #1e2525), url(/LSD/NMBOMES/caracteristicas.jpg);
+  background: linear-gradient(rgb(0, 0, 0), #1e252548, #1e2525), url(caracteristicas.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -192,7 +192,7 @@ nav {
 .Características .car .c {
   height: 100%;
   width: 300px;
-  background: url(/LSD/NMBOMES/caract2.png);
+  background: url(caract2.png);
   background-size: cover;
   background-position: center;
 }
@@ -219,7 +219,7 @@ nav {
   align-items: center;
   margin: 0;
   padding: 10px 10px;
-  background: linear-gradient(#1e2525, rgba(0, 0, 0, 0.034)), url(/LSD/NMBOMES/riesgos.jpg);
+  background: linear-gradient(#1e2525, rgba(0, 0, 0, 0.034)), url(riesgos.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -268,55 +268,55 @@ nav {
 
 /*  */
 .Riesgos .riesg .t.a {
-  background: url(/LSD/NMBOMES/riesgos/1\ sobredosis.jpg);
+  background: url(1\ sobredosis.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.b {
-  background: url(/LSD/NMBOMES/riesgos/2\ problemas\ cardios.jpg);
+  background: url(2\ problemas\ cardios.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.c {
-  background: url(/LSD/NMBOMES/riesgos/3\ hipertermia.jpg);
+  background: url(3\ hipertermia.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.d {
-  background: url(/LSD/NMBOMES/riesgos/4\ convulsiones.jpg);
+  background: url(4\ convulsiones.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.e {
-  background: url(/LSD/NMBOMES/riesgos/5\ alteracion.jpg);
+  background: url(5\ alteracion.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.f {
-  background: url(/LSD/NMBOMES/riesgos/6\ comporatmientos.jpg);
+  background: url(6\ comporatmientos.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.g {
-  background: url(/LSD/NMBOMES/riesgos/7\ desorientacion.jpg);
+  background: url(7\ desorientacion.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.h {
-  background: url(/LSD/NMBOMES/riesgos/8\ problemas\ respiratorios.jpg);
+  background: url(8\ problemas\ respiratorios.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .Riesgos .riesg .t.i {
-  background: url(/LSD/NMBOMES/riesgos/9\ problemas\ renales.jpg);
+  background: url(9\ problemas\ renales.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -348,7 +348,7 @@ nav {
   align-items: left;
   margin: 0;
   padding: 10px 10px;
-  background: linear-gradient(rgba(0, 0, 0, 0.432), #1e2525), url(/LSD/NMBOMES/diferencias.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.432), #1e2525), url(diferencias.jpg);
   background-size: cover;
   background-position: center;
   color: white;

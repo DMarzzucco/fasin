@@ -283,7 +283,7 @@ nav {
   align-content: center;
   padding: 20px 20px;
   border: 1px solid #1e2525;
-  background: linear-gradient(#8f909037, #8f9090), url(/HONGOS/origen/hip.jpg);
+  background: linear-gradient(#8f909037, #8f9090), url(hip.jpg);
   background-position: center;
   background-size: cover;
   color: #1e2525;
@@ -312,7 +312,7 @@ nav {
   width: 100%;
   height: 70vh;
   padding: 20px 20px;
-  background: linear-gradient(#1e2525a8, #1e2525), url(/HONGOS/origen/ter.jpg);
+  background: linear-gradient(#1e2525a8, #1e2525), url(ter.jpg);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -367,7 +367,7 @@ nav {
   justify-content: center;
   align-items: center;
   color: white;
-  background: linear-gradient(#1e2525c4, #1e2525c4), url(/HONGOS/consumo/consumo.jpg);
+  background: linear-gradient(#1e2525c4, #1e2525c4), url(consumo.jpg);
   background-size: cover;
   background-position: center;
   padding: 20px 20px;
@@ -411,7 +411,7 @@ nav {
   justify-content: center;
   align-items: center;
   color: white;
-  background: linear-gradient(#1e2525c4, #1e2525), url(/HONGOS/consumo/lista-con.jpg);
+  background: linear-gradient(#1e2525c4, #1e2525), url(lista-con.jpg);
   background-size: cover;
   background-position: center;
   padding: 20px 20px;
@@ -428,32 +428,32 @@ nav {
 
 /*  */
 .list-con .kan.fresco {
-  background: linear-gradient(#1e2525c4, #1e2525c4), url(/HONGOS/consumo/fresco.jpg);
+  background: linear-gradient(#1e2525c4, #1e2525c4), url(fresco.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .list-con .kan.seco {
-  background: linear-gradient(#1e2525c4, #1e2525c4), url(/HONGOS/consumo/seco.jpg);
+  background: linear-gradient(#1e2525c4, #1e2525c4), url(seco.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .list-con .kan.extracto {
-  background: linear-gradient(#1e2525c4, #1e2525c4), url(/HONGOS/consumo/extracto.jpg);
+  background: linear-gradient(#1e2525c4, #1e2525c4), url(extracto.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .list-con .kan.alimento {
-  background: linear-gradient(#1e2525c4, #1e2525c4), url(/HONGOS/consumo/alimentos.jpg);
+  background: linear-gradient(#1e2525c4, #1e2525c4), url(alimentos.jpg);
   background-size: cover;
   background-position: center;
 
 }
 
 .list-con .kan.infusion {
-  background: linear-gradient(#1e2525c4, #1e2525c4), url(/HONGOS/consumo/infusion.jpg);
+  background: linear-gradient(#1e2525c4, #1e2525c4), url(infusion.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -543,7 +543,7 @@ nav {
   padding: 20px 20px;
   margin: 0;
   color: white;
-  background: linear-gradient(#1e2525ac, #1e2525ac), url(/HONGOS/efectos/efectos.webp);
+  background: linear-gradient(#1e2525ac, #1e2525ac), url(efectos.webp);
   background-position: center;
   background-size: cover;
 }
@@ -593,7 +593,7 @@ nav {
   padding: 10px 10px;
   margin: 0;
   color: white;
-  background: linear-gradient(#1e2525af, #1e2525), url(/HONGOS/efectos/ifect.png);
+  background: linear-gradient(#1e2525af, #1e2525), url(ifect.png);
   background-size: cover;
 
 }
@@ -663,7 +663,7 @@ nav {
 
 /*  */
 .ifect .efectos-filas .title.c {
-  background: linear-gradient(rgba(128, 0, 128, 0.692), rgba(255, 255, 255, 0.5)), url(/HONGOS/efectos/alteracion.jpeg);
+  background: linear-gradient(rgba(128, 0, 128, 0.692), rgba(255, 255, 255, 0.5)), url(alteracion.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -677,14 +677,14 @@ nav {
 }
 
 .ifect .efectos-filas .conten.c {
-  background: linear-gradient(#740f7eb6, #740f7eb6), url(/HONGOS/efectos/alteracion.jpeg);
+  background: linear-gradient(#740f7eb6, #740f7eb6), url(alteracion.jpeg);
   background-position: center;
   background-size: cover;
 }
 
 /*  */
 .ifect .efectos-filas .title.d {
-  background: linear-gradient(#0e4d4d73, #0e4d4d), url(/HONGOS/efectos/cognicion.jpeg);
+  background: linear-gradient(#0e4d4d73, #0e4d4d), url(cognicion.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -698,7 +698,7 @@ nav {
 }
 
 .ifect .efectos-filas .conten.d {
-  background: linear-gradient(#0e4d4d9a, #0e4d4d9a), url(/HONGOS/efectos/cognicion.jpeg);
+  background: linear-gradient(#0e4d4d9a, #0e4d4d9a), url(cognicion.jpeg);
   background-position: center;
   background-size: cover;
 
@@ -706,7 +706,7 @@ nav {
 
 /*  */
 .ifect .efectos-filas .title.e {
-  background: linear-gradient(#1e252573, #1e2525), url(/HONGOS/efectos/experiencias\ sensoriales.jpeg);
+  background: linear-gradient(#1e252573, #1e2525), url(experiencias\ sensoriales.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -720,7 +720,7 @@ nav {
 }
 
 .ifect .efectos-filas .conten.e {
-  background: linear-gradient(white, #1e252594), url(/HONGOS/efectos/experiencias\ sensoriales.jpeg);
+  background: linear-gradient(white, #1e252594), url(experiencias\ sensoriales.jpeg);
   background-position: center;
   background-size: cover;
   color: rgb(5, 78, 5);
@@ -728,7 +728,7 @@ nav {
 
 /*  */
 .ifect .efectos-filas .title.f {
-  background: linear-gradient(#23969683, #23969683), url(/HONGOS/efectos/alucinaciones.jpeg);
+  background: linear-gradient(#23969683, #23969683), url(alucinaciones.jpeg);
   background-position: center;
   background-size: cover;
 }
@@ -742,14 +742,14 @@ nav {
 }
 
 .ifect .efectos-filas .conten.f {
-  background: linear-gradient(#1c7575b6, #207474ad), url(/HONGOS/efectos/alucinaciones.jpeg);
+  background: linear-gradient(#1c7575b6, #207474ad), url(alucinaciones.jpeg);
   background-position: center;
   background-size: cover;
 }
 
 /*  */
 .ifect .efectos-filas .title.g {
-  background: linear-gradient(#1e25259c, #1e25258f), url(/HONGOS/efectos/espirtual.jpg);
+  background: linear-gradient(#1e25259c, #1e25258f), url(espirtual.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -763,14 +763,14 @@ nav {
 }
 
 .ifect .efectos-filas .conten.g {
-  background: linear-gradient(#1e25259c, #1e25258f), url(/HONGOS/efectos/espirtual.jpg);
+  background: linear-gradient(#1e25259c, #1e25258f), url(espirtual.jpg);
   background-position: center;
   background-size: cover;
 }
 
 /*  */
 .ifect .efectos-filas .title.h {
-  background: linear-gradient(#d4ac3e62, #d4ac3e62), url(/HONGOS/efectos/introspeccion.jpg);
+  background: linear-gradient(#d4ac3e62, #d4ac3e62), url(introspeccion.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -784,7 +784,7 @@ nav {
 }
 
 .ifect .efectos-filas .conten.h {
-  background: linear-gradient(#92711562, #92711562), url(/HONGOS/efectos/introspeccion.jpg);
+  background: linear-gradient(#92711562, #92711562), url(introspeccion.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -835,7 +835,7 @@ nav {
   padding: 20px 20px;
   margin: 0;
   color: white;
-  background: linear-gradient(#1e2525ad, #1e2525ad), url(/HONGOS/hibridos/hibridos.jpg);
+  background: linear-gradient(#1e2525ad, #1e2525ad), url(hibridos.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -866,7 +866,7 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 20px 20px;
-  background: linear-gradient(rgba(128, 128, 128, 0.667), grey), url(/HONGOS/hibridos/aclaracion.jpeg);
+  background: linear-gradient(rgba(128, 128, 128, 0.667), grey), url(aclaracion.jpeg);
   background-position: 50% 56%;
   background-size: cover;
   color: white;
@@ -891,7 +891,7 @@ nav {
   align-items: center;
   width: 100%;
   height: auto;
-  background: linear-gradient(#1e2525a8, #1e2525), url(/HONGOS/hibridos/tbls.jpeg);
+  background: linear-gradient(#1e2525a8, #1e2525), url(tbls.jpeg);
   background-position: center;
   background-size: contain;
   margin: 0;
@@ -1047,34 +1047,34 @@ nav {
 
 /*  */
 .tbls .tab .imgen.k1 {
-  background: url(/HONGOS/hibridos/cubensis.jpg);
+  background: url(cubensis.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .tbls .tab .imgen.k2 {
-  background: url(/HONGOS/hibridos/semilanceata.jpg);
+  background: url(semilanceata.jpg);
   background-size: cover;
   background-position: 50% 30%;
   width: 160px;
 }
 
 .tbls .tab .imgen.k3 {
-  background: url(/HONGOS/hibridos/mexicana.jpeg);
+  background: url(mexicana.jpeg);
   background-size: cover;
   background-position: center;
   width: 150px;
 }
 
 .tbls .tab .imgen.k4 {
-  background: url(/HONGOS/hibridos/azurescens.jpg);
+  background: url(azurescens.jpg);
   background-size: cover;
   background-position: 50% 30%;
   width: 300px;
 }
 
 .tbls .tab .imgen.k5 {
-  background: url(/HONGOS/hibridos/Cyanescens.jpg);
+  background: url(Cyanescens.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -1170,7 +1170,7 @@ nav {
   justify-content: center;
   align-items: center;
   color: white;
-  background: linear-gradient(#1e2525a4, #1e2525a4), url(/HONGOS/precauciones/precauciones.jpg);
+  background: linear-gradient(#1e2525a4, #1e2525a4), url(precauciones.jpg);
   background-position: center;
   background-size: cover;
   padding: 20px 20px;
@@ -1212,7 +1212,7 @@ nav {
 .precau-inf {
   width: 100%;
   height: 67vh;
-  background: linear-gradient(rgba(153, 205, 50, 0.699), yellowgreen), url(/HONGOS/precauciones/informacion.jpg);
+  background: linear-gradient(rgba(153, 205, 50, 0.699), yellowgreen), url(informacion.jpg);
   background-position: 50%, 10%;
   background-size: cover;
   padding: 20px 20px;
@@ -1259,7 +1259,7 @@ nav {
 .cont-precau {
   width: 100%;
   height: 100%;
-  background: linear-gradient(#1e252593, #1e2525), url(/HONGOS/precauciones/preca-list.webp);
+  background: linear-gradient(#1e252593, #1e2525), url(preca-list.webp);
   background-size: contain;
   display: flex;
   flex-direction: column;
@@ -1311,37 +1311,37 @@ nav {
 
 /*  */
 .cont-precau .titulos.b {
-  background: linear-gradient(#1e252588, #1e252588), url(/HONGOS/precauciones/dosificacion.jpeg);
+  background: linear-gradient(#1e252588, #1e252588), url(dosificacion.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .cont-precau .titulos.c {
-  background: linear-gradient(#1e252588, #1e252588), url(/HONGOS/precauciones/setandsetting.jpeg);
+  background: linear-gradient(#1e252588, #1e252588), url(setandsetting.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .cont-precau .titulos.d {
-  background: linear-gradient(#1e252588, #1e252588), url(/HONGOS/precauciones/estadoemocional.jpeg);
+  background: linear-gradient(#1e252588, #1e252588), url(estadoemocional.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .cont-precau .titulos.e {
-  background: linear-gradient(#1e252588, #1e252588), url(/HONGOS/precauciones/acompañamiento.jpeg);
+  background: linear-gradient(#1e252588, #1e252588), url(acompañamiento.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .cont-precau .titulos.f {
-  background: linear-gradient(#1e252588, #1e252588), url(/HONGOS/precauciones/alimentacion.jpeg);
+  background: linear-gradient(#1e252588, #1e252588), url(alimentacion.jpeg);
   background-size: cover;
   background-position: center;
 }
 
 .cont-precau .titulos.g {
-  background: linear-gradient(#1e252588, #1e252588), url(/HONGOS/precauciones/preparacion.jpeg);
+  background: linear-gradient(#1e252588, #1e252588), url(preparacion.jpeg);
   background-size: cover;
   background-position: center;
 }
@@ -1370,7 +1370,7 @@ nav {
 .cont-precau .conten p {
   padding: 10px 10px;
   height: 100%;
-  background: linear-gradient(rgba(255, 166, 0, 0.596), orange), url(/HONGOS/precauciones/p.jpg);
+  background: linear-gradient(rgba(255, 166, 0, 0.596), orange), url(p.jpg);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -1392,7 +1392,7 @@ nav {
   justify-content: center;
   align-items: center;
   color: white;
-  background: linear-gradient(#1e2525af, #1e2525af), url(/HONGOS/concecuencias/concecuencias.png);
+  background: linear-gradient(#1e2525af, #1e2525af), url(concecuencias.png);
   background-position: center;
   background-size: cover;
   padding: 20px 20px;
@@ -1435,7 +1435,7 @@ nav {
 .pstv-cons {
   width: 100%;
   height: 70vh;
-  background: linear-gradient(rgba(255, 192, 203, 0.608), rgba(255, 192, 203, 0.608)), url(/HONGOS/concecuencias/positivo.jpeg);
+  background: linear-gradient(rgba(255, 192, 203, 0.608), rgba(255, 192, 203, 0.608)), url(positivo.jpeg);
   background-position: center;
   background-size: cover;
   padding: 10px 10px;
@@ -1471,7 +1471,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(/HONGOS/concecuencias/negativo.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(negativo.jpg);
   background-position: center;
   background-size: cover;
   padding: 10px 10px;
@@ -1548,21 +1548,21 @@ nav {
 
 /*  */
 .concens-con .filas-negativ .tabs.bad-trip {
-  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(/HONGOS/concecuencias/badtrip.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(bad.trip.jpg);
   background-position: center;
   background-size: cover;
 
 }
 
 .concens-con .filas-negativ .tabs.problem {
-  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(/HONGOS/concecuencias/salud\ mental.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(salud\ mental.jpg);
   background-position: center;
   background-size: cover;
 
 }
 
 .concens-con .filas-negativ .tabs.psicosis {
-  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(/HONGOS/concecuencias/psicosis.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.584), #1e2525), url(psicosis.jpg);
   background-position: center;
   background-size: cover;
 

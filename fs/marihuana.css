@@ -1,0 +1,1007 @@
+html, body{
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  overflow-x: hidden;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+p::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+li::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+ul::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+u::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+h1::selection {
+  background: #B2FF4D;
+  color: #000;
+}
+h2::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+h3::selection{
+  background: #B2FF4D;
+  color: #000;
+}
+h1,h2,h3 {
+  margin: 0;
+}
+.Marihuana-con p {
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+}
+main div::selection {
+  background: #B2FF4D;
+  color: #000;
+}
+
+/* header de prueba-con */
+.prueba-conNav{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  background: linear-gradient(#1e2525b2, #1e252599), url(nav\ marihuana.png);
+}
+.prueba-conNav .logo img{
+  width: 200px;
+  height: 85px;
+}
+.prueba-conNav .nav{
+  text-align: center;
+  padding: 20px 20px;
+  margin-top: 10px;
+  
+}
+.prueba-conNav .nav a{
+  text-decoration: none;
+  color: #B2FF4D;
+  padding: 9px 9px;
+  border-radius: 50px;
+  transition: 1s;
+}
+.prueba-conNav .nav a:hover{
+  background-color:#b2ff4d84;
+  color: #1e2525;
+}
+
+/* container */
+.prueba-en-con{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* header */
+.Marihuana-Fondo{
+  align-items: center;
+  background: linear-gradient(#00ffff72, #1e25253a), url(Flores.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  
+}
+.Marihuana-Fondo .enlace{
+  text-align: right;  
+  padding: 20px 20px;
+}
+.Marihuana-Fondo .enlace a{
+  padding: 20px 20px;
+  color: #fff;
+  font-size: 30px;
+}
+.Marihuana-Fondo .logo img{
+  filter: brightness(150%);
+  width: 300px;
+  height: 143px;
+  padding: 20px 20px;
+  margin-top: -80px;
+}
+.Marihuana .Marihuana-Fondo .titulo {
+  margin-top:200px;
+  color: #fff;
+}
+.Marihuana .Marihuana-Fondo .titulo h1{
+  margin: 0;
+  padding: 40px 50px;
+  font-size: 50px;
+}
+
+/* section */
+.Marihuana-expli{
+  width: 100%;
+  height: 100%;
+  background:linear-gradient(173deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(relajao.gif);
+  background-size: 100%;
+  display: grid;
+  color: white;
+}
+
+.Marihuana-expli h1{
+  margin: 0;
+  font-size: 50px;
+  padding: 10px 10px;
+}
+.Marihuana-expli .explicacion{
+  padding: 20px 20px;
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.Marihuana-expli .explicacion .historia{
+  grid-column: 2/ 3;
+  grid-row: 2/3;
+  text-align: left;
+}
+.Marihuana-expli .explicacion .Historia-infop2 {
+  grid-column: span 2;
+}
+
+/*diferencias*/
+.container-diferencias {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+ 
+}
+.sativa, .indica {
+  width: 45%;
+  padding: 15px;
+  border: 10px double #fff;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+/*section imagenes*/
+.Marihuana-expli .imagen-Homero {
+  grid-column: 2 / 3; 
+  grid-row: 1 / 2; 
+  text-align: center;
+}
+.Marihuana-expli .imagen-Homero img {
+  width: 500px;
+  height: 350px;
+}
+.Marihuana-expli .imagen-Historia {
+  grid-column: 1 / 2; 
+  grid-row: 2 / 3; 
+  text-align: center;
+  height: 500px;
+}
+.Marihuana-expli .imagen-diferencias {
+  grid-column: span 2;
+  text-align: center;
+  height: 500px;
+}
+.Marihuana-expli .imagen-diferencias img {
+  width: 800px;
+  height: 450px;
+}
+/*final de section imagenes*/
+
+.Marihuana-expli .nav-cont{
+  text-align: center;
+  padding: 20px 20px;
+}
+.Marihuana-expli .nav-cont a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+.Marihuana-expli .nav-cont a:hover{
+  background-color: #B2FF4D;
+  color: #1e2525;
+}
+
+
+/* section efectos,consumo,híbridos,precauciones y consecuencias*/
+.Marihuana-con{
+width: 100%;
+height: auto;
+background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(marihuana-efectos-F.gif);
+background-position: center;
+position: relative;
+}
+.Marihuana-con h1 {
+  color: #ADFF2F;
+  text-align: center;
+  font-size: 30px;
+}
+
+/*efectos*/
+.Marihuana-con .imagen-S-I {
+  text-align: center;
+}
+.container-efectos { 
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.sativa-efectos, .indica-efectos{
+  width: 45%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.indica-efectos {
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(indica_3.jpg);
+  color: #fff;
+}
+.sativa-efectos {
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(sativa.jpg);
+  color: #fff;
+}
+.container-e-generales {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+.efectos-generales {
+  width: 45%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
+  color: #fff;
+}
+/*ventana Bob y Patricio*/
+.ventana {
+  cursor: pointer;
+}
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(hojaweed.gif);
+  background-size: cover;
+  color: #fff;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 70%;
+  max-height: 70vh;
+  overflow-y: auto; 
+  box-sizing: border-box;
+}
+.modal-content p {
+  margin: 5;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+}
+/* barra de desplazamiento */
+.modal-content::-webkit-scrollbar {
+  width: 10px; 
+}
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #B2FF4D; 
+  border-radius: 10px; 
+}
+
+/*Consumo*/
+.container-consumo {
+  margin-top: 40px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box; 
+}
+.consumo-1{
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vapear-fumar2.png);
+  color: #fff;
+  width: 500px;
+  height: 600px;
+  border-radius: 5%;
+}
+.consumo-2{
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(comida-cannabica2.png);
+  color: #fff;
+  width: 500px;
+  height: 600px;
+  border-radius: 5%;
+}
+.consumo-1 h2,
+.consumo-2 h2 {
+  text-align: center;
+}
+.consumo-1 p,
+.consumo-2 p {
+  margin: 10px; 
+  padding: 10px; 
+}
+.Marihuana-con h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #B2FF4D;
+}
+.container-D-vf{
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  box-sizing: border-box; 
+}
+
+.vaporización {
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(vaporizacion.png);
+  border-radius: 5%;
+  color: #fff;
+}
+.vaporización ul {
+  margin-top: 60px;
+}
+.fumar{
+  width: 500px;
+  height: 400px;
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%), url(combustion.png);
+  border-radius: 5%;
+  color: #fff;
+}
+.fumar ul{
+  margin-top: 60px;
+}
+
+/*Hibridos*/
+.intro-hibri {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.intro-hibri2{
+  width: 600px;
+  margin: 10px; 
+  padding: 10px; 
+  border-radius: 5%;
+  box-shadow: 29px 24px 58px 10px rgba(0,0,0,0.75);
+  background: linear-gradient(90deg, rgba(248,91,255,0.5) 0%, rgba(103,255,92,0.5) 100%);
+}
+/*cartas*/
+.container{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container .card{
+  position: relative;
+  cursor: pointer;
+}
+.container .card .face{
+  width: 300px;
+  height: 200px;
+  transition: 0.5s;
+}
+.container .card .face.face1{
+  position: relative;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+}
+.container .card:hover .face.face1{
+  background: #ff0057;
+  transform: translateY(0);
+}
+.container .card .face.face1.img1 {
+  background: url(GirlScocutCookies2-min.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img2{
+  background: url(HS0016-blue-dream_660x990.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img3{
+  background: url(og-kush_2666_1_.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img4{
+  background: url(sour-diesel.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img5{
+  background: url(White-Widow.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img6{
+  background: url(jack_herer.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img7{
+  background: url(pineapple-express.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1.img8{
+  background: url(ak-47.jpg) center center no-repeat;
+  background-size: cover; 
+}
+.container .card .face.face1 .content .h3-cartas{
+  margin: 10px 0 0;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
+  width: 300px;
+  margin: 0; 
+  position: absolute;
+  top: 0; 
+  left: 0;
+  background-color: #000;
+}
+.container .card:hover .face.face1 .content .h3-cartas {
+  opacity: 0;
+  transition: 0.4s ease; /*pa que el titulo desaparezca y se vea la img*/
+}
+.container .card .face.face2{
+  position: relative;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.8);
+  transform: translateY(-100px);
+  padding: 5;
+}
+.container .card:hover .face.face2{
+  transform: translateY(0);
+}
+.container .card .face.face2 .content p {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  justify-content: top;
+  align-items: top;
+}
+
+/*Precauciones*/
+.section1 {
+  background-color: #511d6e;
+  color: #fff; 
+}
+.section1 h1 {
+  text-align: center;
+  font-size: 30px;
+}
+.section2 {
+  background-color: #6e1d6a;
+  color: #fff;
+  position: relative; 
+}
+.section2 img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+  opacity: 0.3;
+}
+.section3 {
+  background-color: #813370;
+  color: #fff; 
+  position: relative; 
+}
+.section3 img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  bottom: 0; 
+  right: 0;
+  opacity: 0.3;
+}
+/*mal viaje*/
+.container-malviaje {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box; 
+}
+.consumidor-a{
+  background: linear-gradient(90deg, rgba(248,91,255,0.5) 0%, rgba(103,255,92,0.5) 100%);
+  color: #fff;
+  width: 500px;
+  border-radius: 5%;
+}
+.compañero-a{
+  background: linear-gradient(90deg, rgba(248,91,255,0.5) 0%, rgba(103,255,92,0.5) 100%);
+  color: #fff;
+  width: 500px;
+  border-radius: 5%;
+}
+.consumidor-a h3,
+.compañero-a h3 {
+  text-align: center;
+}
+
+/*Consecuencias*/
+.consecuencias {
+  height: 600px;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 500px 100px;
+  grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+main#carousel {
+  grid-row: 1 / 2;
+  grid-column: 1 / 8;
+  width: 100vw;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 600px;
+  --items: 5;
+  --middle: 3;
+  --position: 1;
+  pointer-events: auto; /* habilitar el puntero en el carousel */
+}
+
+div.item {
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  background-color: coral;
+  --r: calc(var(--position) - var(--offset));
+  --abs: max(calc(var(--r) * -1), var(--r));
+  transition: all 0.25s linear;
+  transform: rotateY(calc(-10deg * var(--r)))
+    translateX(calc(-300px * var(--r)));
+  z-index: calc((var(--position) - var(--abs)));
+}
+
+div.item:nth-of-type(1) {
+  --offset: 1;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(efectoencerebro.png);
+}
+div.item:nth-of-type(2) {
+  --offset: 2;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(problemas-respiratorio.png);
+}
+div.item:nth-of-type(3) {
+  --offset: 3;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(corazon.png);
+}
+div.item:nth-of-type(4) {
+  --offset: 4;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(estomag2.png);
+}
+div.item:nth-of-type(5) {
+  --offset: 5;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(meditacion.png);
+}
+div.item:nth-of-type(6) {
+  --offset: 6;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(mente.png);
+}
+div.item:nth-of-type(7) {
+  --offset: 7;
+  background: linear-gradient(90deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url(dependencia.png);
+}
+.item p,
+.item ul {
+  color: #fff;
+  padding: 2;
+}
+.item ul{
+  margin: 0;
+}
+/* footer */
+footer {
+    background: linear-gradient(90deg, rgba(4,64,0,0.5) 0%, rgba(4,64,0,0.5) 100%), url(footer-inicio1.gif);
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+  }
+  footer .box{
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding: 20px 20px;
+  }
+  footer img{
+    width: 200px;
+    height: 200px;
+  }
+  footer .enlaces{
+    margin: 0;
+    background-color:#1e2525;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .enlaces a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:#B2FF4D;
+    padding: 20px;
+    text-align: center;
+  }
+  footer .copia-deauto{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /*Responsive*/
+  /*parte inicial, enlace en logo*/
+  @media  screen and (max-width: 1000px) {
+    .Marihuana-Fondo .enlace a{
+      display: none;
+    }
+    .Marihuana-Fondo .logo img {
+      position: relative;
+      top: 10px;
+    }
+    .Marihuana .Marihuana-Fondo .titulo h1 {
+      position: relative;
+      top: 40px;
+      padding: 20px 30px;
+    }
+    /*fondo inicio*/
+    .Marihuana-expli .explicacion{
+      display: flex;
+      flex-direction: column;
+    }
+    .Marihuana-expli .imagen-Homero {
+      display: none;
+    }
+    .Marihuana-expli .imagen-Historia {
+      display: none;
+    }
+    .Marihuana-expli .explicacion img,
+    .Marihuana-expli .imagen-Historia-respon img,
+    .Marihuana-expli .imagen-Homero-respon img, 
+    .Marihuana-expli .imagen-diferencias img {
+      max-width: 100%;
+      height: auto;
+    } 
+    .imagen-Homero-respon {
+      height: 300px;
+    }
+    .Marihuana-expli .imagen-diferencias {
+      height: auto;
+    }
+    .Marihuana-expli .explicacion.contexto {
+      padding: 20px;
+    }
+    .Marihuana-expli h2 {
+      text-align: center;
+    }
+    .Marihuana-expli .container-diferencias {
+      display: flex;
+      justify-content: space-around;
+      margin: 20px;
+    }
+    .sativa,
+    .indica {
+      width: 45%;
+      padding: 15px;
+      border: 4px double #fff;
+      border-radius: 20px;
+      box-sizing: border-box;
+      text-align: left;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .imagen-Homero-respon {
+       display: none;
+   }
+    .imagen-Historia-respon {
+    display: none;
+   }
+  }
+  @media only screen and (max-width: 320px) {
+    .Marihuana-expli .explicacion {
+      padding: 10px; 
+    }
+    .Marihuana-expli .imagen-Homero-respon,
+    .Marihuana-expli .imagen-Historia-respon,
+    .Marihuana-expli .imagen-diferencias {
+      height: auto; 
+    }
+    .Marihuana-expli .container-diferencias {
+      flex-direction: column; 
+    }
+    .sativa,
+    .indica {
+      width: 100%; 
+      margin-bottom: 10px; 
+    }
+  }
+
+  /* nav modal */
+@media screen and (max-width: 700px) {
+  .nav {
+    display: none;
+  }
+  #aside-respon {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); 
+    z-index: 1000; 
+    color: #B2FF4D;
+    text-align: center;
+    padding-top: 50px; 
+  }
+
+  #aside-respon a {
+    display: block;
+    padding: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #B2FF4D;
+  }
+
+  #hideShow-res {
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #B2FF4D;
+    z-index: 1001; 
+  }
+}
+@media only screen and (min-width: 700px) {
+  .prueba-conNav-responsive {
+      display: none;
+  }
+ }
+
+/*responsive de las 5 pestañas*/
+/*Consumo*/
+  @media  screen and (max-width: 1000px) {
+     .Marihuana-con.Consum {
+      height: 100vh;
+     }
+     .Marihuana-con .container-consumo {
+      display: none;
+     }
+     .C-h2{
+      display: none;
+     }
+     .Marihuana-con .container-D-vf {
+      display: none;
+     }
+    .consumo-1-R {
+      position: relative;
+      top: 20px;
+      margin-bottom: 20px;
+      border: #ADFF2F 4px solid;
+      color: #fff;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(vapear-fumar2.png);
+    }
+    .consumo-2-R {
+      position: relative;
+      top: 20px;
+      margin-bottom: 20px;
+      border: #ADFF2F 4px solid;
+      color: #fff;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(comida-cannabica2.png);
+    }
+    .vaporización-R {
+      position: relative;
+      top: 40px;
+      margin-bottom: 20px;
+      border: #ADFF2F 4px solid;
+      color: #fff;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(vaporizacion.png);
+    }
+    .fumar-R {
+      position: relative;
+      top: 40px;
+      margin-bottom: 50px;
+      border: #ADFF2F 4px solid;
+      color: #fff;
+      background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url(combustion.png);
+    }
+    .consumo-h2-R {
+      position: relative;
+      top: 20px;
+    }
+    .accordion {
+      max-width: 600px; 
+      margin: auto;
+    }
+     .accordion-item-title {
+      display: block;
+      padding: 10px;
+      cursor: pointer;
+      text-align: center;
+      color: #ADFF2F;
+    }
+     .accordion-item-content {
+      display: none;
+      padding: 10px;
+      border: 1px solid  #B2FF4D;
+    }
+     .accordion-item-title:focus + .accordion-item-content,
+     .accordion-item-title:hover + .accordion-item-content {
+      display: block;
+    }
+     input[type="checkbox"]:checked + .accordion-item-title + .accordion-item-content {
+      display: block;
+    } 
+}
+@media only screen and (min-width: 1000px) {
+  .container-consumo-responsive {
+     display: none;
+ }
+  .consumo-h2-R {
+    display: none;
+  }
+  .container-D-vf-responsive {
+    display: none;
+  }
+}
+/*Efectos*/
+@media  screen and (max-width: 700px) {
+  .Marihuana-con .imagen-S-I img {
+    width: 100vw;
+    height: auto;
+  }
+  .container-efectos {
+    display: none;
+  }
+  .container-e-generales {
+    display: none;
+  }
+  .container-efectos-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sativa-efectos,
+  .indica-efectos {
+    width: 80%;
+    padding: 15px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px; 
+  }
+  .accordion-item-title {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  .container-e-generales-responsive {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Añadido para centrar los elementos */
+    background: radial-gradient(circle, rgba(14,255,0,0.5) 0%, rgba(215,255,0,0.5) 100%);
+    border-radius: 8px;
+    width: 80%;
+  }
+  .accordion-item-content.generales {
+    border: none;
+  }
+  .efectos-generales-R {
+    width: 80%; 
+    margin-bottom: 20px; 
+  }
+  .efectos-generales-R .accordion-item-content {
+    display: none;
+  }
+  .efectos-generales-R .accordion-item-content p,
+  .efectos-generales-R .accordion-item-content ul {
+    margin: 10px;
+    padding: 10px;
+    color: #fff;
+  }
+ }
+@media only screen and (min-width: 700px) {
+  .container-efectos-responsive {
+    display: none;
+  }
+  .container-e-generales-responsive {
+    display: none;
+  }
+ }
+ /*Precauciones*/
+ @media  screen and (max-width: 700px) {
+  .container-malviaje {
+    display: none;
+  }
+ .consumidor-a {
+  width: 100vw;
+  }
+ .compañero-a {
+  width: 100vw;
+  }
+ .accordion-item-content.precauR {
+  border: none;
+  }
+ }
+ @media only screen and (min-width: 700px) {
+  .container-malviaje-responsive{ 
+    display: none;
+  }
+ }
+ /*Consecuencias*/
+ @media screen and (max-width: 700px) {
+  .consecuencias {
+    grid-template-columns: 1fr;
+  }
+  div.item {
+    width: 300px;
+    height: 400px; 
+  }
+  div.item:nth-of-type(1) {
+    overflow: auto;
+  }
+  div.item:nth-of-type(7) {
+    overflow: auto;
+  }
+  div.item:nth-of-type(1)::-webkit-scrollbar,
+  div.item:nth-of-type(7)::-webkit-scrollbar {
+    width: 2px;
+  }
+  div.item:nth-of-type(1)::-webkit-scrollbar-thumb,
+  div.item:nth-of-type(7)::-webkit-scrollbar-thumb{
+    background-color: #B2FF4D; /* Cambia esto al color que desees */
+  }
+}
