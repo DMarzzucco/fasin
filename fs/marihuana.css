@@ -317,6 +317,9 @@ position: relative;
 }
 
 /*Consumo*/
+.Consum .space{
+  height: 200px;
+}
 .container-consumo {
   margin-top: 40px;
   width: 100vw;
@@ -811,7 +814,7 @@ footer {
 /*Consumo*/
   @media  screen and (max-width: 1000px) {
      .Marihuana-con.Consum {
-      height: 100vh;
+      height: 100%;
      }
      .Marihuana-con .container-consumo {
       display: none;

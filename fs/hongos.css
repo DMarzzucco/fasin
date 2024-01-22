@@ -609,7 +609,7 @@ nav {
 
 .ifect .efectos-filas {
   display: grid;
-  grid-template-columns: repeat(3, 10fr);
+  grid-template-columns: repeat(2, 10fr);
   grid-gap: 26px;
   padding: 10px 10px;
 }
@@ -1278,7 +1278,7 @@ nav {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 600px;
+  margin-right: 10px;
   padding: 20px 20px;
 }
 
@@ -1374,7 +1374,6 @@ nav {
   background-size: cover;
   background-position: center;
   display: flex;
-  border-radius: 70px;
   justify-content: center;
   align-items: center;
   color: #0e4d4d;
@@ -1954,6 +1953,7 @@ footer .copia-deauto {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-right: 600px;
   }
 
   .cont-precau .conten {

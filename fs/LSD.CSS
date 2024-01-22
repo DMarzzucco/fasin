@@ -284,6 +284,7 @@ nav {
   width: 350px;
   height: 400px;
   transition: 1s;
+  margin-left: 30px;
 }
 
 .consumo-con .consumo .card .face p {

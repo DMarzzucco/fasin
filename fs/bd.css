@@ -1,17 +1,18 @@
-html, body{
-    margin: 0;
-    scroll-behavior: smooth;
-    padding: 0;
-    overflow-x: hidden;
-    font-family: 'Monteserrat Alternates', sans-serif;
-    font-weight: bold;
+html,
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Monteserrat Alternates', sans-serif;
+  font-weight: bold;
 }
 
 /* header de -con */
-.badTrip{
+.badTrip {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(#1e2525ab,#1e2525ab), url(badtrip.jpg);
+  background: linear-gradient(#1e2525ab, #1e2525ab), url(badtrip.jpg);
   background-position: center;
   background-size: cover;
   padding: 20px 20px;
@@ -20,33 +21,39 @@ html, body{
   align-items: center;
   flex-direction: column;
 }
-.badTrip div{
+
+.badTrip div {
   border: 1px solid rgba(255, 255, 255, 0.685);
   padding: 20px 20px;
   color: rgba(255, 255, 255, 0.61);
   transition: 0.5s;
 }
-.badTrip div:hover{
+
+.badTrip div:hover {
   border: none;
   background: rgba(255, 255, 255, 0.61);
   color: #1e2525;
 }
-.badTrip h1{
+
+.badTrip h1 {
   margin: 0;
   text-align: center;
   font-size: 90px;
 }
-.badTrip p{
+
+.badTrip p {
   width: 600px;
   font-size: 20px;
 }
+
 /*  */
-.box{
+.box {
   width: 100%;
 }
-.box .kl{
+
+.box .kl {
   width: 100%;
-  background:linear-gradient(#5d9b0bcc,#5d9b0b,#5d9b0b), url(box.png);
+  background: linear-gradient(#5d9b0bcc, #5d9b0b, #5d9b0b), url(box.png);
   background-position: 50% 20%;
   background-size: cover;
   padding: 20px 20px;
@@ -56,30 +63,35 @@ html, body{
   align-items: center;
   color: #1e2525;
 }
-.box .kl h1{
+
+.box .kl h1 {
   padding: 9px 9px;
   font-size: 67px;
 }
-.box .kl p{
+
+.box .kl p {
   width: 500px;
-  font-size:20px;
+  font-size: 20px;
 }
-.box h1{
+
+.box h1 {
   margin: 0;
 }
+
 /*  */
-.bt{
+.bt {
   padding: 30px 30px;
   height: 80vh;
   display: flex;
-  background: linear-gradient(#1e2525ab,#1e2525), url(bt.jpg);
+  background: linear-gradient(#1e2525ab, #1e2525), url(bt.jpg);
   background-position: center;
   background-size: cover;
   justify-content: center;
   align-items: center;
 
 }
-.bt .qb{
+
+.bt .qb {
   padding: 10px 10px;
   width: 600px;
   height: 300px;
@@ -88,27 +100,31 @@ html, body{
   border: none;
   transition: 0.6s;
 }
-.bt .qb.bt1{
-  background:linear-gradient(#1e25259f,#1e25259f), url(Hora\ de\ aventura.gif);
-  background-position: center;
-  background-size: cover;
-}
-.bt .qb.bt2{
-  background:linear-gradient(#1e25259f,#1e25259f), url(cñor.gif);
+
+.bt .qb.bt1 {
+  background: linear-gradient(#1e25259f, #1e25259f), url(Hora\ de\ aventura.gif);
   background-position: center;
   background-size: cover;
 }
 
-.bt .qb p{
+.bt .qb.bt2 {
+  background: linear-gradient(#1e25259f, #1e25259f), url(cñor.gif);
+  background-position: center;
+  background-size: cover;
+}
+
+.bt .qb p {
   font-size: 30px;
   color: white;
 }
-.bt .qb:hover{
+
+.bt .qb:hover {
   transform: scale(1.1);
   box-shadow: 0 0 10px #5d9b0b;
 }
+
 /*  */
-.inicio{
+.inicio {
   width: 100%;
   height: 100px;
   display: flex;
@@ -117,21 +133,24 @@ html, body{
   align-items: center;
   padding: 20px 20px;
 }
-.inicio a{
+
+.inicio a {
   text-decoration: none;
   font-size: 30px;
   cursor: pointer;
   transition: 0.5s;
-  color:white;
+  color: white;
 }
-.inicio a:hover{
+
+.inicio a:hover {
   transform: scale(1.1);
 }
+
 /* acompañamiento */
-  .comp{
+.comp {
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(Hora\ de\ aventura.gif);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(Hora\ de\ aventura.gif);
   background-size: cover;
   padding: 20px 20px;
   display: flex;
@@ -140,64 +159,74 @@ html, body{
   align-items: center;
   color: white;
 }
+
 .comp .nk {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.comp .nk p{
+
+.comp .nk p {
   width: 700px;
   font-size: 20px;
 }
+
 .comp h1 {
   margin: 0;
   font-size: 70px;
 }
-.comp .filas{
+
+.comp .filas {
   border: none;
   width: 800px;
   font-size: 20px;
 }
-.comp .filas li{
+
+.comp .filas li {
   padding: 9px 9px;
   margin: 8px;
   transition: 0.5s;
 }
-.comp .filas li:hover{
+
+.comp .filas li:hover {
   background-color: #B2FF4D;
   color: #1e2525;
   transform: scale(1.1);
 }
-.comp .filas u{
+
+.comp .filas u {
   text-decoration: none;
   background-color: #B2FF4D;
   padding: 3px 3px;
   color: #1e2525;
 }
-.comp .enl{
+
+.comp .enl {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
 }
-.comp .enl a{
+
+.comp .enl a {
   text-decoration: none;
   color: white;
   font-size: 30px;
   transition: 0.5s;
 }
-.comp .enl a:hover{
+
+.comp .enl a:hover {
   font-size: 35px;
 }
 
 
 /* indiividual*/
-.ind{
+.ind {
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 100%), url(cñor.gif);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%), url(cñor.gif);
   background-size: cover;
   padding: 20px 20px;
   display: flex;
@@ -206,199 +235,249 @@ html, body{
   align-items: center;
   color: white;
 }
+
 .ind .nk {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.ind .nk p{
+
+.ind .nk p {
   width: 700px;
   font-size: 20px;
 }
+
 .ind h1 {
   margin: 0;
   font-size: 70px;
 }
-.ind .filas{
-  
+
+.ind .filas {
   width: 800px;
   font-size: 20px;
 }
-.ind .filas li{
+
+.ind .filas ul {
+  margin: 0;
+  padding: 0 0;
+  margin-right: 30px;
+}
+
+.ind .filas li {
   padding: 9px 9px;
   margin: 8px;
   transition: 0.5s;
+  list-style: none;
 }
-.ind .filas li:hover{
+
+.ind .filas li:hover {
   background-color: #B2FF4D;
   color: #1e2525;
   transform: scale(1.1);
 }
-.ind .filas u{
+
+.ind .filas u {
   text-decoration: none;
   background-color: #B2FF4D;
   padding: 3px 3px;
   color: #1e2525;
 }
-.ind .enl{
+
+.ind .enl {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px 10px;
 }
-.ind .enl a{
+
+.ind .enl a {
   text-decoration: none;
   color: white;
   font-size: 30px;
   transition: 0.5s;
 }
-.ind .enl a:hover{
+
+.ind .enl a:hover {
   font-size: 35px;
 }
 
 /* footer */
 footer {
-    background: linear-gradient(90deg, rgba(4,64,0,0.5) 0%, rgba(4,64,0,0.5) 100%), url(footer-inicio1.gif);
-    color: rgb(255, 255, 255);
-    height: 100%;
+  background: linear-gradient(90deg, rgba(4, 64, 0, 0.5) 0%, rgba(4, 64, 0, 0.5) 100%), url(footer-inicio1.gif);
+  color: rgb(255, 255, 255);
+  height: 100%;
+  width: 100%;
+}
+
+footer .box {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 50px;
+  padding: 20px 20px;
+}
+
+
+footer img {
+  width: 200px;
+  height: 200px;
+}
+
+footer .enlaces {
+  margin: 0;
+  background-color: #1e2525;
+  padding: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .enlaces a {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  color: #B2FF4D;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .copia-deauto {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nedua */
+@media screen and (max-width:700px) {
+  .bt .qb {
+    margin: 10px;
+  }
+
+  .bt .qb.bt1 {
+    width: 350px;
+  }
+
+  .bt .qb.bt2 {
+    width: 350px;
+  }
+
+  .badTrip {
     width: 100%;
+    height: 100vh;
   }
-  footer .box{
+
+  .badTrip h1 {
+    font-size: 30px;
+  }
+
+  .badTrip p {
+    width: 300px;
+    font-size: 15px;
+  }
+
+  .badTrip div {
     width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    padding: 20px 20px;
-  }
-  
-  
-  footer img{
-    width: 200px;
-    height: 200px;
-  }
-  
-  footer .enlaces{
-    margin: 0;
-    background-color:#1e2525;
-    padding: 50px 50px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 9px 9px;
+    width: 300px;
   }
-  footer .enlaces a {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color:#B2FF4D;
-    padding: 20px;
-    text-align: center;
+
+  /*  */
+  .box .kl {
+    display: flex;
+    flex-direction: column;
   }
-  footer .copia-deauto{
-    background-color: black;
+
+  .box .kl h1 {
+    font-size: 16px;
+  }
+
+  .box .kl p {
+    font-size: 15px;
+    padding: 9px 9px;
+    width: 368px;
+  }
+
+  /*  */
+  .bt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* comp */
+  .comp {
+    padding: 20px 0px;
+  }
+
+  .comp .nk h1 {
+    font-size: 30px;
+  }
+
+  .comp .nk p {
+    width: 400px;
+  }
+
+  .comp .filas {
     width: 100%;
-    margin: 0;
-    padding: 10px;
-    font-family: Arial, Helvetica, sans-serif;
   }
-  /* nedua */
-  @media screen  and (max-width:700px){
-    .bt .qb{
-      margin: 10px;
-    }
-    .bt .qb.bt1{
-      width: 350px;
-    }
-    .bt .qb.bt2{
-      width: 350px;
-    }
-    .badTrip {
-      width: 100%;
-      height: 100vh;
-    }
-    .badTrip h1{
-      font-size: 30px;
-    }
-    .badTrip p{
-      width: 300px;
-      font-size: 15px;
-    }
-    .badTrip div{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 9px 9px;
-      width: 300px;
-    }
-    /*  */
-    .box .kl{
-      display: flex;
-      flex-direction: column;
-    }
-    .box .kl h1{
-      font-size: 16px;
-    }
-    .box .kl p{
-      font-size: 15px;
-      padding: 9px 9px;
-    }
-    /*  */
-    .bt {
-      display: flex;
-      flex-direction: column;
-    }
-    /* comp */
-    .comp{
-      padding: 20px 0px;
-    }
-    .comp .nk h1{
-      font-size: 30px;
-    }
-    .comp .nk p{
-      width: 400px;
-    }
-    .comp .filas{
-      width: 100%;
-    }
-    .comp .filas ul{
-      padding: 0px;
-    }
-    /* footer */
-    footer .box{
-      display: none;
-    }
-    footer .enlaces{
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      
-    }
-    footer .enlaces a{
-      font-size: 10px;
-    }
-    footer .copia-deauto{
-      font-size: 10px;
-    }
-    
-    /*Ind*/
-    .ind .filas {
-      width: 400px;
-    }
-    .ind h1 {
-      font-size: 40px;
-    }
-    .ind .nk p {
-      width: 400px;
-    }
-    .ind .filas {
-      width: 90%;
-    }
-    .ind .enl a{
-      font-size: 20px;
-    }
+
+  .comp .filas ul {
+    padding: 0px;
   }
-  
-  
+
+  .comp .filas li:hover {
+    transform: none;
+  }
+
+  /* footer */
+  footer .box {
+    display: none;
+  }
+
+  footer .enlaces {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  footer .enlaces a {
+    font-size: 10px;
+  }
+
+  footer .copia-deauto {
+    font-size: 10px;
+  }
+
+  /*Ind*/
+  .ind .filas {
+    width: 400px;
+  }
+
+  .ind h1 {
+    font-size: 40px;
+  }
+
+  .ind .nk p {
+    width: 400px;
+  }
+
+  .ind .filas {
+    width: 90%;
+  }
+
+  .ind .filas li:hover {
+    transform: none;
+  }
+
+  .ind .enl a {
+    font-size: 20px;
+  }
+}
